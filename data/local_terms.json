@@ -1,0 +1,157 @@
+[
+  {
+    "term": "2D",
+    "literal": "Two-dimensional",
+    "definition": null
+  },
+  {
+    "term": "3D",
+    "literal": "Three-dimensional",
+    "definition": null
+  },
+  {
+    "term": "Alpha2",
+    "literal": null,
+    "definition": "Two-letter"
+  },
+  {
+    "term": "Alpha3",
+    "literal": null,
+    "definition": "Three-letter"
+  },
+  {
+    "term": "CMV",
+    "literal": "Commercial Motor Vehicle",
+    "definition": null
+  },
+  {
+    "term": "DEA",
+    "literal": "Drug Enforcement Administration",
+    "definition": null
+  },
+  {
+    "term": "ESN",
+    "literal": "electronic serial number",
+    "definition": null
+  },
+  {
+    "term": "FATCA",
+    "literal": "Foreign Account Tax Compliance Act",
+    "definition": null
+  },
+  {
+    "term": "FIPS",
+    "literal": "Federal Information Processing Standards",
+    "definition": null
+  },
+  {
+    "term": "GENC",
+    "literal": "Geopolitical Entities, Names, and Codes",
+    "definition": null
+  },
+  {
+    "term": "GSM",
+    "literal": "Global System for Mobile communication",
+    "definition": null
+  },
+  {
+    "term": "IEC",
+    "literal": "International Electrotechnical Commission",
+    "definition": null
+  },
+  {
+    "term": "IMEI",
+    "literal": "International Mobile Equipment Identity",
+    "definition": null
+  },
+  {
+    "term": "IPv4",
+    "literal": "Internet Protocol version 4",
+    "definition": null
+  },
+  {
+    "term": "IPv6",
+    "literal": "Internet Protocol version 6",
+    "definition": null
+  },
+  {
+    "term": "ISO",
+    "literal": "International Organization for Standardization",
+    "definition": null
+  },
+  {
+    "term": "ISO3166",
+    "literal": null,
+    "definition": "ISO 3166 is a standard published by the International Organization for Standardization (ISO) that defines codes for the names of countries, dependent territories, special areas of geographical interest, and their principal subdivisions (e.g., provinces or states). The official name of the standard is Codes for the representation of names of countries and their subdivisions."
+  },
+  {
+    "term": "ISSN",
+    "literal": "International Standard Serial Number",
+    "definition": null
+  },
+  {
+    "term": "MAC",
+    "literal": "media access control address",
+    "definition": null
+  },
+  {
+    "term": "MIME",
+    "literal": "Multipurpose Internet Mail Extensions",
+    "definition": null
+  },
+  {
+    "term": "MSRP",
+    "literal": "Manufacturer's suggested retail price",
+    "definition": null
+  },
+  {
+    "term": "NANP",
+    "literal": "North American Numbering Plan",
+    "definition": null
+  },
+  {
+    "term": "Postdirectional",
+    "literal": null,
+    "definition": "A word following a street name that indicates the directional taken by the thoroughfare from an arbitrary starting point or line, or the sector where it is located."
+  },
+  {
+    "term": "Predirectional",
+    "literal": null,
+    "definition": "A word preceding a street name that indicates the directional taken by the thoroughfare from an arbitrary starting point or line, or the sector where it is located."
+  },
+  {
+    "term": "RFID",
+    "literal": "Radio-frequency identification",
+    "definition": null
+  },
+  {
+    "term": "RH",
+    "literal": null,
+    "definition": "Rhesus (Rh) factor is an inherited protein found on the surface of red blood cells."
+  },
+  {
+    "term": "SSN",
+    "literal": "Social Security Number",
+    "definition": null
+  },
+  {
+    "term": "TCP",
+    "literal": "Transmission Control Protocol",
+    "definition": null
+  },
+  {
+    "term": "UMTS",
+    "literal": "Universal Mobile Telecommunications Service",
+    "definition": null
+  },
+  {
+    "term": "UTC",
+    "literal": "Coordinated Universal Time",
+    "definition": null
+  },
+  {
+    "term": "UTM",
+    "literal": "Universal Transverse Mercator",
+    "definition": null
+  }
+]

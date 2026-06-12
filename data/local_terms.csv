@@ -1,0 +1,32 @@
+term,literal,definition
+2D,Two-dimensional,
+3D,Three-dimensional,
+Alpha2,,Two-letter
+Alpha3,,Three-letter
+CMV,Commercial Motor Vehicle,
+DEA,Drug Enforcement Administration,
+ESN,electronic serial number,
+FATCA,Foreign Account Tax Compliance Act,
+FIPS,Federal Information Processing Standards,
+GENC,"Geopolitical Entities, Names, and Codes",
+GSM,Global System for Mobile communication,
+IEC,International Electrotechnical Commission,
+IMEI,International Mobile Equipment Identity,
+IPv4,Internet Protocol version 4,
+IPv6,Internet Protocol version 6,
+ISO,International Organization for Standardization,
+ISO3166,,"ISO 3166 is a standard published by the International Organization for Standardization (ISO) that defines codes for the names of countries, dependent territories, special areas of geographical interest, and their principal subdivisions (e.g., provinces or states). The official name of the standard is Codes for the representation of names of countries and their subdivisions."
+ISSN,International Standard Serial Number,
+MAC,media access control address,
+MIME,Multipurpose Internet Mail Extensions,
+MSRP,Manufacturer's suggested retail price,
+NANP,North American Numbering Plan,
+Postdirectional,,"A word following a street name that indicates the directional taken by the thoroughfare from an arbitrary starting point or line, or the sector where it is located."
+Predirectional,,"A word preceding a street name that indicates the directional taken by the thoroughfare from an arbitrary starting point or line, or the sector where it is located."
+RFID,Radio-frequency identification,
+RH,,Rhesus (Rh) factor is an inherited protein found on the surface of red blood cells.
+SSN,Social Security Number,
+TCP,Transmission Control Protocol,
+UMTS,Universal Mobile Telecommunications Service,
+UTC,Coordinated Universal Time,
+UTM,Universal Transverse Mercator,

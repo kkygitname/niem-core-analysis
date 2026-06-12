@@ -1,0 +1,460 @@
+[
+  {
+    "name": "AddressCategoryCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 5,
+    "enumerations": [
+      "business",
+      "registered office",
+      "residential",
+      "residential or business",
+      "unspecified"
+    ],
+    "documentation": "A data type for a kind of address."
+  },
+  {
+    "name": "AngularMinuteSimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a minute of a degree, with a restricted range of 0 (inclusive) to 60 (exclusive)."
+  },
+  {
+    "name": "AngularSecondSimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a second of a minute, with a restricted range of 0 (inclusive) to 60 (exclusive)."
+  },
+  {
+    "name": "BinaryHashFunctionCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 8,
+    "enumerations": [
+      "MD2",
+      "MD4",
+      "MD5",
+      "SHA-1",
+      "SHA-224",
+      "SHA-256",
+      "SHA-384",
+      "SHA-512"
+    ],
+    "documentation": "A data type for a hash function used to generate a hash value representing an object encoded in a binary format."
+  },
+  {
+    "name": "BooleanListSimpleType",
+    "base": "xs:boolean",
+    "baseLocal": "boolean",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a white space-delimited list of boolean."
+  },
+  {
+    "name": "ContactInformationAvailabilityCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 6,
+    "enumerations": [
+      "day",
+      "emergency",
+      "evening",
+      "night",
+      "primary",
+      "secondary"
+    ],
+    "documentation": "A data type for a period of time or a situation in which an entity is available to be contacted with the given contact information."
+  },
+  {
+    "name": "DayOfWeekCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 7,
+    "enumerations": [
+      "FRI",
+      "MON",
+      "SAT",
+      "SUN",
+      "THU",
+      "TUE",
+      "WED"
+    ],
+    "documentation": "A data type for days of the week."
+  },
+  {
+    "name": "DecimalListSimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a white space-delimited list of decimal."
+  },
+  {
+    "name": "Degree180PlusMinusSimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for an angle measured in degrees between -180 and 180."
+  },
+  {
+    "name": "Degree360SimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a value between 0 (inclusive) and 360 (exclusive)."
+  },
+  {
+    "name": "Degree90PlusMinusSimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for an angle measured in degrees between -90 and 90."
+  },
+  {
+    "name": "Degree90SimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a value between 0 (inclusive) and 90 (exclusive)."
+  },
+  {
+    "name": "DirectionCodeSimpleType",
+    "base": "xs:string",
+    "baseLocal": "string",
+    "enumerationCount": 16,
+    "enumerations": [
+      "E",
+      "ENE",
+      "ESE",
+      "N",
+      "NE",
+      "NNE",
+      "NNW",
+      "NW",
+      "S",
+      "SE",
+      "SSE",
+      "SSW",
+      "SW",
+      "W",
+      "WNW",
+      "WSW"
+    ],
+    "documentation": "A data type for compass directions."
+  },
+  {
+    "name": "DoubleListSimpleType",
+    "base": "xs:double",
+    "baseLocal": "double",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a white space-delimited list of double."
+  },
+  {
+    "name": "EmploymentPositionBasisCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 3,
+    "enumerations": [
+      "contractor",
+      "non-permanent",
+      "permanent"
+    ],
+    "documentation": "A data type for a nature or duration of the employment position."
+  },
+  {
+    "name": "EmptyReasonCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 6,
+    "enumerations": [
+      "inapplicable",
+      "missing",
+      "other",
+      "template",
+      "unknown",
+      "withheld"
+    ],
+    "documentation": "A data type for a reason why a data value was not provided."
+  },
+  {
+    "name": "FinancialAccountHolderCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 3,
+    "enumerations": [
+      "FATCA101",
+      "FATCA102",
+      "FATCA103"
+    ],
+    "documentation": "A data type for a kind of financial account holder."
+  },
+  {
+    "name": "FinancialAccountNumberCategoryCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 5,
+    "enumerations": [
+      "IBAN",
+      "ISIN",
+      "OBAN",
+      "OSIN",
+      "Other"
+    ],
+    "documentation": "A data type for a kind of financial account number."
+  },
+  {
+    "name": "ImagePoseCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 3,
+    "enumerations": [
+      "Frontal",
+      "Oblique",
+      "Side"
+    ],
+    "documentation": "A data type for angles of an entity's pose in a photograph."
+  },
+  {
+    "name": "IntegerListSimpleType",
+    "base": "xs:integer",
+    "baseLocal": "integer",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a list of integers."
+  },
+  {
+    "name": "LatitudeDegreeSimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a degree of latitude."
+  },
+  {
+    "name": "LongitudeDegreeSimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a degree of longitude."
+  },
+  {
+    "name": "MessageCategoryFATCACodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 2,
+    "enumerations": [
+      "FATCA",
+      "Other"
+    ],
+    "documentation": "A data type for kind of Foreign Account Tax Compliance Act (FATCA) message."
+  },
+  {
+    "name": "MilitaryDischargeCategoryCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 9,
+    "enumerations": [
+      "B",
+      "D",
+      "G",
+      "H",
+      "M",
+      "N",
+      "O",
+      "Q",
+      "U"
+    ],
+    "documentation": "A data type for kinds of discharges a person may receive from military service."
+  },
+  {
+    "name": "NonNegativeDecimalSimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a decimal value with a minimum value of 0."
+  },
+  {
+    "name": "NonNegativeIntegerListSimpleType",
+    "base": "xs:nonNegativeInteger",
+    "baseLocal": "nonNegativeInteger",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a white space-delimited list of nonnegative integers."
+  },
+  {
+    "name": "PassportCategoryCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 3,
+    "enumerations": [
+      "Diplomat",
+      "Individual",
+      "Official"
+    ],
+    "documentation": "A data type for a kind of passport."
+  },
+  {
+    "name": "PaymentMethodCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 6,
+    "enumerations": [
+      "Cash",
+      "Check",
+      "Dividends",
+      "Gross Proceeds/Redemptions",
+      "Interest",
+      "Other"
+    ],
+    "documentation": "A data type for a specific method of payment."
+  },
+  {
+    "name": "PersonNameCategoryCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 4,
+    "enumerations": [
+      "Alternate",
+      "Asserted",
+      "at birth",
+      "Legal"
+    ],
+    "documentation": "A data type for a kind of person name."
+  },
+  {
+    "name": "PersonPronounsCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 6,
+    "enumerations": [
+      "he/him",
+      "other",
+      "prefer not to say",
+      "she/her",
+      "they/them",
+      "unknown"
+    ],
+    "documentation": "A data type for a set of third-person pronouns that can be used in place of a person's name."
+  },
+  {
+    "name": "PersonUnionCategoryCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 5,
+    "enumerations": [
+      "civil union",
+      "common law",
+      "domestic partnership",
+      "married",
+      "unknown"
+    ],
+    "documentation": "A data type describing the legally recognized union between two persons."
+  },
+  {
+    "name": "PersonUnionStatusCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 7,
+    "enumerations": [
+      "anulled",
+      "dissolved",
+      "married",
+      "separated",
+      "single",
+      "unknown",
+      "widowed"
+    ],
+    "documentation": "A data type describing the legal status of a person's union with another person."
+  },
+  {
+    "name": "PositiveIntegerListSimpleType",
+    "base": "xs:positiveInteger",
+    "baseLocal": "positiveInteger",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a white space-delimited list of positive integers."
+  },
+  {
+    "name": "QuarterIDSimpleType",
+    "base": "xs:integer",
+    "baseLocal": "integer",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for an identifier of a three-month period in a calendar or fiscal year."
+  },
+  {
+    "name": "RelativeLocationHeadingSimpleType",
+    "base": "xs:decimal",
+    "baseLocal": "decimal",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a compass heading of a direction from a reference location."
+  },
+  {
+    "name": "SeparationCategoryCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 3,
+    "enumerations": [
+      "Legal",
+      "Physical",
+      "Unknown"
+    ],
+    "documentation": "A data type for a code that identifies the type of separation between the parties in a Person Union."
+  },
+  {
+    "name": "StringListSimpleType",
+    "base": "xs:string",
+    "baseLocal": "string",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a white space-delimited list of string."
+  },
+  {
+    "name": "TokenListSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a white space-delimited list of tokens."
+  },
+  {
+    "name": "UTMCoordinateSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a coordinate from the Universal Transverse Mercator (UTM) Coordinate System, which represents a location with a hemisphere, zone, an easting value, and a northing value."
+  },
+  {
+    "name": "YesNoUnknownCodeSimpleType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "enumerationCount": 3,
+    "enumerations": [
+      "No",
+      "Unknown",
+      "Yes"
+    ],
+    "documentation": "A data type for a ternary or three-option indicator representing true/yes, false/no, and unknown."
+  },
+  {
+    "name": "ZuluDateTimeSimpleType",
+    "base": "xs:dateTime",
+    "baseLocal": "dateTime",
+    "enumerationCount": 0,
+    "enumerations": [],
+    "documentation": "A data type for a dateTime constrained to always be Zulu time, time at the Zero Meridian."
+  }
+]

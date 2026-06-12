@@ -1,0 +1,42 @@
+name,base,baseLocal,enumerationCount,enumerations,documentation
+AddressCategoryCodeSimpleType,xs:token,token,5,"[""business"", ""registered office"", ""residential"", ""residential or business"", ""unspecified""]",A data type for a kind of address.
+AngularMinuteSimpleType,xs:decimal,decimal,0,[],"A data type for a minute of a degree, with a restricted range of 0 (inclusive) to 60 (exclusive)."
+AngularSecondSimpleType,xs:decimal,decimal,0,[],"A data type for a second of a minute, with a restricted range of 0 (inclusive) to 60 (exclusive)."
+BinaryHashFunctionCodeSimpleType,xs:token,token,8,"[""MD2"", ""MD4"", ""MD5"", ""SHA-1"", ""SHA-224"", ""SHA-256"", ""SHA-384"", ""SHA-512""]",A data type for a hash function used to generate a hash value representing an object encoded in a binary format.
+BooleanListSimpleType,xs:boolean,boolean,0,[],A data type for a white space-delimited list of boolean.
+ContactInformationAvailabilityCodeSimpleType,xs:token,token,6,"[""day"", ""emergency"", ""evening"", ""night"", ""primary"", ""secondary""]",A data type for a period of time or a situation in which an entity is available to be contacted with the given contact information.
+DayOfWeekCodeSimpleType,xs:token,token,7,"[""FRI"", ""MON"", ""SAT"", ""SUN"", ""THU"", ""TUE"", ""WED""]",A data type for days of the week.
+DecimalListSimpleType,xs:decimal,decimal,0,[],A data type for a white space-delimited list of decimal.
+Degree180PlusMinusSimpleType,xs:decimal,decimal,0,[],A data type for an angle measured in degrees between -180 and 180.
+Degree360SimpleType,xs:decimal,decimal,0,[],A data type for a value between 0 (inclusive) and 360 (exclusive).
+Degree90PlusMinusSimpleType,xs:decimal,decimal,0,[],A data type for an angle measured in degrees between -90 and 90.
+Degree90SimpleType,xs:decimal,decimal,0,[],A data type for a value between 0 (inclusive) and 90 (exclusive).
+DirectionCodeSimpleType,xs:string,string,16,"[""E"", ""ENE"", ""ESE"", ""N"", ""NE"", ""NNE"", ""NNW"", ""NW"", ""S"", ""SE"", ""SSE"", ""SSW"", ""SW"", ""W"", ""WNW"", ""WSW""]",A data type for compass directions.
+DoubleListSimpleType,xs:double,double,0,[],A data type for a white space-delimited list of double.
+EmploymentPositionBasisCodeSimpleType,xs:token,token,3,"[""contractor"", ""non-permanent"", ""permanent""]",A data type for a nature or duration of the employment position.
+EmptyReasonCodeSimpleType,xs:token,token,6,"[""inapplicable"", ""missing"", ""other"", ""template"", ""unknown"", ""withheld""]",A data type for a reason why a data value was not provided.
+FinancialAccountHolderCodeSimpleType,xs:token,token,3,"[""FATCA101"", ""FATCA102"", ""FATCA103""]",A data type for a kind of financial account holder.
+FinancialAccountNumberCategoryCodeSimpleType,xs:token,token,5,"[""IBAN"", ""ISIN"", ""OBAN"", ""OSIN"", ""Other""]",A data type for a kind of financial account number.
+ImagePoseCodeSimpleType,xs:token,token,3,"[""Frontal"", ""Oblique"", ""Side""]",A data type for angles of an entity's pose in a photograph.
+IntegerListSimpleType,xs:integer,integer,0,[],A data type for a list of integers.
+LatitudeDegreeSimpleType,xs:decimal,decimal,0,[],A data type for a degree of latitude.
+LongitudeDegreeSimpleType,xs:decimal,decimal,0,[],A data type for a degree of longitude.
+MessageCategoryFATCACodeSimpleType,xs:token,token,2,"[""FATCA"", ""Other""]",A data type for kind of Foreign Account Tax Compliance Act (FATCA) message.
+MilitaryDischargeCategoryCodeSimpleType,xs:token,token,9,"[""B"", ""D"", ""G"", ""H"", ""M"", ""N"", ""O"", ""Q"", ""U""]",A data type for kinds of discharges a person may receive from military service.
+NonNegativeDecimalSimpleType,xs:decimal,decimal,0,[],A data type for a decimal value with a minimum value of 0.
+NonNegativeIntegerListSimpleType,xs:nonNegativeInteger,nonNegativeInteger,0,[],A data type for a white space-delimited list of nonnegative integers.
+PassportCategoryCodeSimpleType,xs:token,token,3,"[""Diplomat"", ""Individual"", ""Official""]",A data type for a kind of passport.
+PaymentMethodCodeSimpleType,xs:token,token,6,"[""Cash"", ""Check"", ""Dividends"", ""Gross Proceeds/Redemptions"", ""Interest"", ""Other""]",A data type for a specific method of payment.
+PersonNameCategoryCodeSimpleType,xs:token,token,4,"[""Alternate"", ""Asserted"", ""at birth"", ""Legal""]",A data type for a kind of person name.
+PersonPronounsCodeSimpleType,xs:token,token,6,"[""he/him"", ""other"", ""prefer not to say"", ""she/her"", ""they/them"", ""unknown""]",A data type for a set of third-person pronouns that can be used in place of a person's name.
+PersonUnionCategoryCodeSimpleType,xs:token,token,5,"[""civil union"", ""common law"", ""domestic partnership"", ""married"", ""unknown""]",A data type describing the legally recognized union between two persons.
+PersonUnionStatusCodeSimpleType,xs:token,token,7,"[""anulled"", ""dissolved"", ""married"", ""separated"", ""single"", ""unknown"", ""widowed""]",A data type describing the legal status of a person's union with another person.
+PositiveIntegerListSimpleType,xs:positiveInteger,positiveInteger,0,[],A data type for a white space-delimited list of positive integers.
+QuarterIDSimpleType,xs:integer,integer,0,[],A data type for an identifier of a three-month period in a calendar or fiscal year.
+RelativeLocationHeadingSimpleType,xs:decimal,decimal,0,[],A data type for a compass heading of a direction from a reference location.
+SeparationCategoryCodeSimpleType,xs:token,token,3,"[""Legal"", ""Physical"", ""Unknown""]",A data type for a code that identifies the type of separation between the parties in a Person Union.
+StringListSimpleType,xs:string,string,0,[],A data type for a white space-delimited list of string.
+TokenListSimpleType,xs:token,token,0,[],A data type for a white space-delimited list of tokens.
+UTMCoordinateSimpleType,xs:token,token,0,[],"A data type for a coordinate from the Universal Transverse Mercator (UTM) Coordinate System, which represents a location with a hemisphere, zone, an easting value, and a northing value."
+YesNoUnknownCodeSimpleType,xs:token,token,3,"[""No"", ""Unknown"", ""Yes""]","A data type for a ternary or three-option indicator representing true/yes, false/no, and unknown."
+ZuluDateTimeSimpleType,xs:dateTime,dateTime,0,[],"A data type for a dateTime constrained to always be Zulu time, time at the Zero Meridian."

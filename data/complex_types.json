@@ -1,0 +1,3869 @@
+[
+  {
+    "name": "ActivityConveyanceAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Activity",
+      "Conveyance",
+      "ActivityConveyanceAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an activity and a conveyance.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ActivityDocumentAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Activity",
+      "Document",
+      "ActivityDocumentAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an activity and a document.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ActivityFacilityAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Activity",
+      "Facility",
+      "ActivityFacilityAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an activity and a facility.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ActivityItemAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Activity",
+      "Item",
+      "ActivityItemAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an activity and an item.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ActivityOrganizationAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 4,
+    "children": [
+      "Activity",
+      "Organization",
+      "ActivityInvolvementAbstract",
+      "ActivityOrganizationAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an activity and an organization.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ActivityPersonAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 4,
+    "children": [
+      "Activity",
+      "Person",
+      "ActivityInvolvementAbstract",
+      "ActivityPersonAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an activity and a person.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ActivityScheduleAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Activity",
+      "ScheduleDay",
+      "ActivityScheduleAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an activity and its schedule.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ActivitySiteAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Activity",
+      "Site",
+      "ActivitySiteAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an activity and a site.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ActivityType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 28,
+    "children": [
+      "ActivityIdentification",
+      "ActivityActualDuration",
+      "ActivityApprovedIndicator",
+      "ActivityAssignedDate",
+      "ActivityCapacityQuantity",
+      "ActivityCategoryAbstract",
+      "ActivityComment",
+      "ActivityCompletedIndicator",
+      "ActivityContactEntity",
+      "ActivityDate",
+      "ActivityDescriptionText",
+      "ActivityDisposition",
+      "ActivityDueDate",
+      "ActivityEffectiveDate",
+      "ActivityEstimatedDuration",
+      "ActivityFrequencyText",
+      "ActivityLocation",
+      "ActivityName",
+      "ActivityNarrative",
+      "ActivityPrescribedDuration",
+      "ActivityReasonAbstract",
+      "ActivityReportedDate",
+      "ActivityRequestedDate",
+      "ActivityScheduledDate",
+      "ActivitySequenceNumeric",
+      "ActivityStatus",
+      "ActivityVerifiedDate",
+      "ActivityAugmentationPoint"
+    ],
+    "documentation": "A data type for a single or set of related actions, events, or process steps.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AddressCategoryCodeType",
+    "base": "nc:AddressCategoryCodeSimpleType",
+    "baseLocal": "AddressCategoryCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a kind of address.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "AddressGridType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "AddressGridID",
+      "AddressGridText",
+      "AddressGridAugmentationPoint"
+    ],
+    "documentation": "A data type for a location identified by a unit of a grid system overlaid on an area.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AddressType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 14,
+    "children": [
+      "AddressFullText",
+      "AddressPrivateMailboxText",
+      "AddressSecondaryUnitText",
+      "AddressDeliveryPointAbstract",
+      "AddressRecipientName",
+      "AddressCityName",
+      "AddressCountyAbstract",
+      "AddressState",
+      "AddressCountry",
+      "AddressPostalCode",
+      "AddressPostalExtensionCode",
+      "AddressUrbanizationName",
+      "AddressCategoryAbstract",
+      "AddressAugmentationPoint"
+    ],
+    "documentation": "A data type for a geophysical location described by postal information.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AircraftType",
+    "base": "nc:ConveyanceType",
+    "baseLocal": "ConveyanceType",
+    "childCount": 10,
+    "children": [
+      "AircraftBaseAirport",
+      "AircraftCallSignIdentification",
+      "AircraftCategoryAbstract",
+      "AircraftFuselageColorAbstract",
+      "AircraftMakeAbstract",
+      "AircraftModelAbstract",
+      "AircraftStyleAbstract",
+      "AircraftTailIdentification",
+      "AircraftWingColorAbstract",
+      "AircraftAugmentationPoint"
+    ],
+    "documentation": "A data type for a mode of transportation capable of flying in the air.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AirportType",
+    "base": "nc:FacilityType",
+    "baseLocal": "FacilityType",
+    "childCount": 2,
+    "children": [
+      "AirportCodeAbstract",
+      "AirportAugmentationPoint"
+    ],
+    "documentation": "A data type for an airport facility.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AmountType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "Amount",
+      "CurrencyAbstract",
+      "AmountAugmentationPoint"
+    ],
+    "documentation": "A data type for an amount of money.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AngleMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "AngleUnitAbstract",
+      "AngleMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of an angular value.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AngularMeasureType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "AngularDegreeValue",
+      "AngularMinuteValue",
+      "AngularSecondValue",
+      "AngularMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for the measurement of an angle.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AngularMinuteType",
+    "base": "nc:AngularMinuteSimpleType",
+    "baseLocal": "AngularMinuteSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a minute of a degree, with a restricted range of 0 (inclusive) to 60 (exclusive).",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "AngularRateMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "AngularRateUnitAbstract",
+      "AngularRateMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of the angular rate of change.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AngularSecondType",
+    "base": "nc:AngularSecondSimpleType",
+    "baseLocal": "AngularSecondSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a second of a minute, with a restricted range of 0 (inclusive) to 60 (exclusive).",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "AnomalyType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "AnomalyCategoryAbstract",
+      "AnomalyContactInformation",
+      "AnomalyDateTime",
+      "AnomalyDescriptionText",
+      "AnomalyLocation",
+      "AnomalyAugmentationPoint"
+    ],
+    "documentation": "A data type for an out-of-the-ordinary occurrence.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AreaMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "AreaMeasureUnitAbstract",
+      "AreaMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of the amount of space covered by a flat surface or piece of land.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AreaType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "AreaDescriptionText",
+      "AreaGeographicAbstract",
+      "AreaRegionAbstract",
+      "AreaAugmentationPoint"
+    ],
+    "documentation": "A data type for a location identified by geographic boundaries.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ArrivalType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "ArrivalDate",
+      "ArrivalEstimatedDate",
+      "ArrivalLocation",
+      "ArrivalAugmentationPoint"
+    ],
+    "documentation": "A data type for a coming to one location from another.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AssessmentType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 16,
+    "children": [
+      "AssessmentAssessor",
+      "AssessmentCategoryAbstract",
+      "AssessmentComment",
+      "AssessmentFee",
+      "AssessmentImage",
+      "AssessmentOutcomeText",
+      "AssessmentPerson",
+      "AssessmentProgram",
+      "AssessmentRecommendation",
+      "AssessmentReferral",
+      "AssessmentReport",
+      "AssessmentScoreAbstract",
+      "AssessmentSummaryText",
+      "AssessmentToolDescriptionText",
+      "AssessmentToolName",
+      "AssessmentAugmentationPoint"
+    ],
+    "documentation": "A data type for an evaluation, appraisal, or assessment of something or someone.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "AssociationType",
+    "base": "structures:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "AssociationDateRange",
+      "AssociationDescriptionText",
+      "AssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association, connection, relationship, or involvement somehow linking people, things, and/or activities together.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "BearingType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "AzimuthAbstract",
+      "InclinationAbstract",
+      "BearingAugmentationPoint"
+    ],
+    "documentation": "A data type for a direction in a polar coordinate system.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "BinaryHashFunctionCodeType",
+    "base": "nc:BinaryHashFunctionCodeSimpleType",
+    "baseLocal": "BinaryHashFunctionCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a hash function used to generate a hash value representing an object encoded in a binary format.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "BinaryHashType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "BinaryHashCode",
+      "BinaryHashFunctionAbstract",
+      "BinaryHashAugmentationPoint"
+    ],
+    "documentation": "A data type for a hash value representing an object encoded in a binary format.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "BinaryType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 14,
+    "children": [
+      "BinaryID",
+      "BinaryCategoryAbstract",
+      "BinaryHash",
+      "BinaryLocation",
+      "BinaryAvailableIndicator",
+      "BinaryObjectAbstract",
+      "BinaryCaptureDate",
+      "BinaryCapturer",
+      "BinaryDescriptionText",
+      "BinaryFormatAbstract",
+      "BinaryFormatStandardName",
+      "BinaryURI",
+      "BinarySizeValue",
+      "BinaryAugmentationPoint"
+    ],
+    "documentation": "A data type for a digital representation of an object encoded in a binary format.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "BooleanListType",
+    "base": "nc:BooleanListSimpleType",
+    "baseLocal": "BooleanListSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a white space-delimited list of boolean.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "CapabilityType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 10,
+    "children": [
+      "CapabilityCategoryAbstract",
+      "CapabilityDescriptionText",
+      "CapabilityEndDate",
+      "CapabilityGeneralCategoryAbstract",
+      "CapabilityIdentification",
+      "CapabilityIsLimitationIndicator",
+      "CapabilityName",
+      "CapabilityProficiencyText",
+      "CapabilityStartDate",
+      "CapabilityAugmentationPoint"
+    ],
+    "documentation": "A data type for an ability to complete a task or execute a course of action under specified condition and level of performance.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "CaseDispositionDecisionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "CaseDispositionDecisionText",
+      "CaseDispositionDecisionCategoryAbstract",
+      "CaseDispositionDecisionAugmentationPoint"
+    ],
+    "documentation": "A data type for the disposition of a case occurring as a result of some decision.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "CaseDispositionType",
+    "base": "nc:DispositionType",
+    "baseLocal": "DispositionType",
+    "childCount": 3,
+    "children": [
+      "CaseDispositionFinalDate",
+      "CaseDispositionDecision",
+      "CaseDispositionAugmentationPoint"
+    ],
+    "documentation": "A data type for an outcome or processing of a case.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "CaseType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 10,
+    "children": [
+      "CaseTitleText",
+      "CaseCategoryAbstract",
+      "CaseGeneralCategoryAbstract",
+      "CaseYearDate",
+      "CaseTrackingID",
+      "CaseSubCategoryAbstract",
+      "CaseDocketID",
+      "CaseResolutionText",
+      "CaseFiling",
+      "CaseAugmentationPoint"
+    ],
+    "documentation": "A data type for an aggregation of information about a set of related activities and events.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "CaveatType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "CaveatText",
+      "CaveatReferenceDate",
+      "CaveatIssuingAuthorityText",
+      "CaveatAugmentationPoint"
+    ],
+    "documentation": "A data type for warning or caution information.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "CircularRegionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "CircularRegionCenterCoordinate",
+      "CircularRegionRadiusLengthMeasure",
+      "CircularRegionAugmentationPoint"
+    ],
+    "documentation": "A data type for a circular area identified by a center coordinate and a radius.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "CodeType",
+    "base": "xs:token",
+    "baseLocal": "token",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a code with codes sourced from an external code list.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "CommentType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 5,
+    "children": [
+      "CommentAuthorText",
+      "CommentCreationDate",
+      "CommentText",
+      "CommentTitleText",
+      "CommentAugmentationPoint"
+    ],
+    "documentation": "A data type for a comment, note, or remark providing additional information.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ConditionType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 8,
+    "children": [
+      "ConditionGroupID",
+      "ConditionSetDate",
+      "ConditionDisciplinaryAction",
+      "ConditionMandatoryIndicator",
+      "ConditionViolatedIndicator",
+      "ConditionViolationAbstract",
+      "ConditionViolationDate",
+      "ConditionAugmentationPoint"
+    ],
+    "documentation": "A data type for a requirement or stipulation.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ConsumptionRateMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "ConsumptionRateUnitAbstract",
+      "ConsumptionRateMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of a rate of consumption.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ContactInformationAvailabilityCodeType",
+    "base": "nc:ContactInformationAvailabilityCodeSimpleType",
+    "baseLocal": "ContactInformationAvailabilityCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a period of time or a situation in which an entity is available to be contacted with the given contact information.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "ContactInformationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 8,
+    "children": [
+      "ContactMeansAbstract",
+      "ContactEntity",
+      "ContactEntityDescriptionText",
+      "ContactInformationCategoryAbstract",
+      "ContactInformationDescriptionText",
+      "ContactResponder",
+      "ContactInformationAvailabilityAbstract",
+      "ContactInformationAugmentationPoint"
+    ],
+    "documentation": "A data type for how to contact a person or an organization.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ContactRadioType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "ContactRadioCategoryAbstract",
+      "ContactRadioChannelText",
+      "ContactRadioCallSignID",
+      "ContactRadioAugmentationPoint"
+    ],
+    "documentation": "A data type for a method of contacting a person or organization by messages over a radio.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ConveyanceType",
+    "base": "nc:ItemType",
+    "baseLocal": "ItemType",
+    "childCount": 8,
+    "children": [
+      "ConveyanceCategoryAbstract",
+      "ConveyanceCargoText",
+      "ConveyanceEngineQuantity",
+      "ConveyanceFuelCategoryAbstract",
+      "ConveyanceMotorizedIndicator",
+      "ConveyanceTowedIndicator",
+      "ConveyanceUseAbstract",
+      "ConveyanceAugmentationPoint"
+    ],
+    "documentation": "A data type for a means of transport from place to place.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "CountryType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 2,
+    "children": [
+      "CountryRepresentation",
+      "CountryAugmentationPoint"
+    ],
+    "documentation": "A data type for a country, territory, dependency, or other such geopolitical subdivision of a location.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "CrisisType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 8,
+    "children": [
+      "CrisisIdentification",
+      "CrisisName",
+      "CrisisLocation",
+      "CrisisImage",
+      "CrisisURLID",
+      "CrisisDescriptionText",
+      "CrisisStatus",
+      "CrisisAugmentationPoint"
+    ],
+    "documentation": "A data type for a crisis.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "CrossStreetType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "CrossStreetDescriptionText",
+      "CrossStreetRelativeLocation",
+      "AddressStreet",
+      "CrossStreetAugmentationPoint"
+    ],
+    "documentation": "A data type for a location identified by two or more streets which intersect.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DateRangeType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "StartDate",
+      "EndDate",
+      "DateRangeAugmentationPoint"
+    ],
+    "documentation": "A data type for a range of dates.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DateType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "DateRepresentation",
+      "DateAccuracyAbstract",
+      "DateMarginOfErrorDuration",
+      "DateAugmentationPoint"
+    ],
+    "documentation": "A data type for a calendar date.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DayOfWeekCodeType",
+    "base": "nc:DayOfWeekCodeSimpleType",
+    "baseLocal": "DayOfWeekCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for days of the week.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "DecalType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "DecalID",
+      "DecalColorAbstract",
+      "DecalPeriodAbstract",
+      "DecalYearDate",
+      "DecalMonthDate",
+      "DecalAugmentationPoint"
+    ],
+    "documentation": "A data type for a sticker.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DecimalListType",
+    "base": "nc:DecimalListSimpleType",
+    "baseLocal": "DecimalListSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a white space-delimited list of decimal.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "DecimalRangeType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "RangeMinimumDecimalValue",
+      "RangeMaximumDecimalValue",
+      "DecimalRangeAugmentationPoint"
+    ],
+    "documentation": "A data type for a range of decimal values.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "Degree180PlusMinusType",
+    "base": "nc:Degree180PlusMinusSimpleType",
+    "baseLocal": "Degree180PlusMinusSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for an angle measured in degrees between -180 and 180.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "Degree360Type",
+    "base": "nc:Degree360SimpleType",
+    "baseLocal": "Degree360SimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a value between 0 (inclusive) and 360 (exclusive).",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "Degree90PlusMinusType",
+    "base": "nc:Degree90PlusMinusSimpleType",
+    "baseLocal": "Degree90PlusMinusSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for an angle measured in degrees between -90 and 90.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "Degree90Type",
+    "base": "nc:Degree90SimpleType",
+    "baseLocal": "Degree90SimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a value between 0 (inclusive) and 90 (exclusive).",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "DepartureType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "DepartureDate",
+      "DepartureEstimatedDate",
+      "DepartureLocation",
+      "DepartureAugmentationPoint"
+    ],
+    "documentation": "A data type for a leaving from one location to another.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DeviceInformationAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 8,
+    "children": [
+      "TelecommunicationDevice",
+      "DeviceUser",
+      "DeviceReceivedInformationAbstract",
+      "DeviceSentInformationAbstract",
+      "DeviceStoredInformationAbstract",
+      "DeviceVisitedInformationAbstract",
+      "Activity",
+      "DeviceInformationAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a device and a message, website, binary, or other kind of information.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DeviceType",
+    "base": "nc:ItemType",
+    "baseLocal": "ItemType",
+    "childCount": 6,
+    "children": [
+      "DeviceCategoryAbstract",
+      "DeviceESNIdentification",
+      "DeviceIMEIIdentification",
+      "DeviceElectronicAddress",
+      "DeviceStoredContactInformation",
+      "DeviceAugmentationPoint"
+    ],
+    "documentation": "A data type for a device.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DirectDialTelephoneNumberType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "DirectDialTelephoneNetworkText",
+      "DirectDialTelephoneNumberID",
+      "DirectDialTelephoneNumberAugmentationPoint"
+    ],
+    "documentation": "A data type for a telephone number consisting of a shortened sequence of numbers that can be used within a local telephone system, such as a particular network or a corporate phone system.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DirectionCodeType",
+    "base": "nc:DirectionCodeSimpleType",
+    "baseLocal": "DirectionCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for compass directions.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "DisciplinaryActionType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 9,
+    "children": [
+      "DisciplinaryActionPerson",
+      "DisciplinaryActionAssigner",
+      "DisciplinaryActionCommunityService",
+      "DisciplinaryActionEnforcer",
+      "DisciplinaryActionCounseling",
+      "DisciplinaryActionFee",
+      "DisciplinaryActionProgram",
+      "DisciplinaryActionRestitution",
+      "DisciplinaryActionAugmentationPoint"
+    ],
+    "documentation": "A data type for an activity assigned to a person for the purpose of self-improvement, punishment, or restitution.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DispositionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 9,
+    "children": [
+      "DispositionCategoryAbstract",
+      "DispositionEntity",
+      "DispositionDate",
+      "DispositionDescriptionText",
+      "DispositionReasonAbstract",
+      "DispositionReportedAuthorityText",
+      "DispositionText",
+      "DispositionInstrument",
+      "DispositionAugmentationPoint"
+    ],
+    "documentation": "A data type for a result or outcome that is the product of handling, processing, or finalizing something.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DocumentAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 4,
+    "children": [
+      "PrimaryDocument",
+      "SecondaryDocument",
+      "DocumentRelationAbstract",
+      "DocumentAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for a relationship between documents.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DocumentType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 65,
+    "children": [
+      "DocumentApprovedIndicator",
+      "DocumentAuthor",
+      "DocumentCategoryAbstract",
+      "DocumentCategoryDescriptionText",
+      "DocumentContentAbstract",
+      "DocumentContentListText",
+      "DocumentContributor",
+      "DocumentCopyrightIndicator",
+      "DocumentCountry",
+      "DocumentCoverageAbstract",
+      "DocumentCreationDate",
+      "DocumentDescriptionText",
+      "DocumentDispositionAuthorityName",
+      "DocumentDispositionInstructionText",
+      "DocumentDisputedIndicator",
+      "DocumentDisputedReasonAbstract",
+      "DocumentEffectiveDate",
+      "DocumentEntrySubmitter",
+      "DocumentEUDataPrivacyIndicator",
+      "DocumentExpirationDate",
+      "DocumentFileControlID",
+      "DocumentFiledDate",
+      "DocumentFileExtensionText",
+      "DocumentFileName",
+      "DocumentFormatCategoryAbstract",
+      "DocumentFormatAbstract",
+      "DocumentGroupID",
+      "DocumentIdentification",
+      "DocumentInformationCutOffDate",
+      "DocumentIntelligenceCategoryAbstract",
+      "DocumentIssuanceLocation",
+      "DocumentIssueDate",
+      "DocumentKeywordAbstract",
+      "DocumentLanguage",
+      "DocumentLastModifiedDate",
+      "DocumentLocation",
+      "DocumentLocationURI",
+      "DocumentManagementCyclePeriodText",
+      "DocumentOtherRecipient",
+      "DocumentPermanentRecordIndicator",
+      "DocumentPhysicalMediumCategoryAbstract",
+      "DocumentPhysicalMediumText",
+      "DocumentPostDate",
+      "DocumentPrivacyActIndicator",
+      "DocumentPublicationDate",
+      "DocumentReceivedDate",
+      "DocumentRecipient",
+      "DocumentRelatedResourceText",
+      "DocumentRightsText",
+      "DocumentSensitivityAbstract",
+      "DocumentSequenceID",
+      "DocumentSoftware",
+      "DocumentSource",
+      "DocumentSourceText",
+      "DocumentStatus",
+      "DocumentStatusCategoryAbstract",
+      "DocumentSubjectAbstract",
+      "DocumentSubmissionAmount",
+      "DocumentSubmitter",
+      "DocumentSummaryText",
+      "DocumentSupplementalMarkingText",
+      "DocumentTitleAlternativeText",
+      "DocumentTitleText",
+      "DocumentVitalIndicator",
+      "DocumentAugmentationPoint"
+    ],
+    "documentation": "A data type for a paper or electronic document.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DoubleListType",
+    "base": "nc:DoubleListSimpleType",
+    "baseLocal": "DoubleListSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a white space-delimited list of double.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "DoubleRangeType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "RangeMaximumDoubleValue",
+      "RangeMinimumDoubleValue",
+      "DoubleRangeAugmentationPoint"
+    ],
+    "documentation": "A data type for a range of double values.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "DrugType",
+    "base": "nc:SubstanceType",
+    "baseLocal": "SubstanceType",
+    "childCount": 5,
+    "children": [
+      "DrugDaysSupplyQuantity",
+      "DrugStrengthText",
+      "DrugClassScheduleAbstract",
+      "DrugCoverageExceptionReasonText",
+      "DrugAugmentationPoint"
+    ],
+    "documentation": "A data type for a legal or illegal substance that can be used as a medicine or a narcotic.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "EducationLevelType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 2,
+    "children": [
+      "EducationLevelRepresentation",
+      "EducationLevelAugmentationPoint"
+    ],
+    "documentation": "A data type for a level of education reached by a person.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "EducationQualificationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 7,
+    "children": [
+      "EducationQualificationRepresentation",
+      "EducationQualificationIssuedDate",
+      "EducationQualificationExpirationDate",
+      "EducationQualificationInstitution",
+      "EducationQualificationDescriptionText",
+      "EducationQualificationLevel",
+      "EducationQualificationAugmentationPoint"
+    ],
+    "documentation": "A data type for a degree, certificate, credit, or other educational qualification obtained by a person.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "EducationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "EducationDescriptionText",
+      "EducationInProgressIndicator",
+      "EducationLevel",
+      "EducationQualification",
+      "EducationStatus",
+      "EducationAugmentationPoint"
+    ],
+    "documentation": "A data type for a person's educational background.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ElectronicAddressType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "ElectronicAddressDescriptionText",
+      "MACAddressID",
+      "IPv4AddressID",
+      "IPv6AddressID",
+      "URLID",
+      "ElectronicAddressAugmentationPoint"
+    ],
+    "documentation": "A data type for an address, ID, or Uniform Resource Locator (URL) that uniquely identifies a specific site on the Internet or another network.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "EmployerType",
+    "base": "nc:EntityType",
+    "baseLocal": "EntityType",
+    "childCount": 1,
+    "children": [
+      "EmployerAugmentationPoint"
+    ],
+    "documentation": "A data type for an organization or person that employs a person.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "EmploymentAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 26,
+    "children": [
+      "Employee",
+      "Employer",
+      "EmployeeAssignmentAssociation",
+      "EmployeeContactInformation",
+      "EmployeeFullTimeIndicator",
+      "EmployeeHoursFixedIndicator",
+      "EmployeeHoursDailyQuantity",
+      "EmployeeHoursWeeklyQuantity",
+      "EmployeeHoursMonthlyQuantity",
+      "EmployeeIdentification",
+      "EmploymentLengthAbstract",
+      "EmploymentLocation",
+      "EmployeeOccupationAbstract",
+      "EmployeeOccupationCategoryAbstract",
+      "EmployeePayAbstract",
+      "EmployeePayHourlyIndicator",
+      "EmployeePosition",
+      "EmployeeRankAbstract",
+      "EmployeeRegistrationAbstract",
+      "EmployeeSchedule",
+      "EmployeeScheduleFixedIndicator",
+      "EmployeeShiftAbstract",
+      "EmploymentStatus",
+      "EmployeeSupervisor",
+      "EmployeeSupervisorIndicator",
+      "EmploymentAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an employee and an employer.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "EmploymentPositionBasisCodeType",
+    "base": "nc:EmploymentPositionBasisCodeSimpleType",
+    "baseLocal": "EmploymentPositionBasisCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a nature or duration of the employment position.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "EmploymentPositionOrganizationAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 4,
+    "children": [
+      "EmploymentPosition",
+      "Organization",
+      "Status",
+      "EmploymentPositionOrganizationAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an employment position and an organization.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "EmploymentPositionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 16,
+    "children": [
+      "EmploymentPositionBargainingExclusionAbstract",
+      "EmploymentPositionBargainingUnitAbstract",
+      "EmploymentPositionBasisAbstract",
+      "EmploymentPositionDepartmentName",
+      "EmploymentPositionDutyText",
+      "EmploymentPositionEssentialIndicator",
+      "EmploymentPositionEssentialLanguage",
+      "EmploymentPositionIdentification",
+      "EmploymentPositionLocation",
+      "EmploymentPositionAbstract",
+      "EmploymentPositionRequiredEducationAbstract",
+      "EmploymentPositionRequiredJobSkillAbstract",
+      "EmploymentPositionSecurityClearanceLevelAbstract",
+      "EmploymentPositionSupervisoryPosition",
+      "EmploymentPositionTemporaryIndicator",
+      "EmploymentPositionAugmentationPoint"
+    ],
+    "documentation": "A data type for a job, post, or group of duties and responsibilities to be performed by an employee.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "EmptyReasonCodeType",
+    "base": "nc:EmptyReasonCodeSimpleType",
+    "baseLocal": "EmptyReasonCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a reason why a data value was not provided.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "EncounterClassificationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 2,
+    "children": [
+      "EncounterCategoryAbstract",
+      "EncounterClassificationAugmentationPoint"
+    ],
+    "documentation": "A data type for a kind of encounter between a person or item of interest and a governmental element, such as an organization, official or surveillance system.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "EntityType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "EntityRepresentation",
+      "EntityLegalIndicator",
+      "EntityAugmentationPoint"
+    ],
+    "documentation": "A data type for a person, organization, or item.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "EquipmentType",
+    "base": "nc:ItemType",
+    "baseLocal": "ItemType",
+    "childCount": 3,
+    "children": [
+      "EquipmentIdentification",
+      "EquipmentName",
+      "EquipmentAugmentationPoint"
+    ],
+    "documentation": "A data type for a tangible property (other than land or buildings) of more or less durable nature which is useful in carrying on the operations of a business.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FacilityAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 2,
+    "children": [
+      "Facility",
+      "FacilityAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between facilities.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FacilityDocumentAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Facility",
+      "Document",
+      "FacilityDocumentAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a facility and a document.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FacilityFunctionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 2,
+    "children": [
+      "FacilityFunctionAbstract",
+      "FacilityFunctionAugmentationPoint"
+    ],
+    "documentation": "A data type for a purpose or use of a facility.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FacilityImageAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Facility",
+      "Image",
+      "FacilityImageAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a facility and an image.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FacilityPersonAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Facility",
+      "Person",
+      "FacilityPersonAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a facility and a person.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FacilitySiteAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Facility",
+      "Site",
+      "FacilitySiteAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a facility and a site.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FacilitySubFacilityAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "ParentFacility",
+      "SubFacility",
+      "FacilitySubFacilityAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a facility and its sub-facility.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FacilityType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 19,
+    "children": [
+      "FacilityIdentification",
+      "FacilityName",
+      "FacilityCategory",
+      "FacilityLocation",
+      "FacilityContactInformation",
+      "FacilityContainsItem",
+      "FacilityCapacityDescriptionText",
+      "FacilityCapacityQuantity",
+      "FacilityDescriptionText",
+      "FacilityMaxOccupancyQuantity",
+      "FacilityMemberCategoryText",
+      "FacilityOperatingSchedule",
+      "FacilityOperationalStatus",
+      "FacilitySecurityLevelAbstract",
+      "FacilitySiteDiagram",
+      "FacilitySystemIdentification",
+      "FacilitySystemIPAddressID",
+      "FacilityUsage",
+      "FacilityAugmentationPoint"
+    ],
+    "documentation": "A data type for one or more buildings, places, or structures that together provide a particular service.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FinancialAccountHolderCodeType",
+    "base": "nc:FinancialAccountHolderCodeSimpleType",
+    "baseLocal": "FinancialAccountHolderCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a kind of financial account holder.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "FinancialAccountHolderType",
+    "base": "nc:EntityType",
+    "baseLocal": "EntityType",
+    "childCount": 2,
+    "children": [
+      "FinancialAccountHolderCode",
+      "FinancialAccountHolderAugmentationPoint"
+    ],
+    "documentation": "A data type for an entity that holds a financial account.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FinancialAccountNumberCategoryCodeType",
+    "base": "nc:FinancialAccountNumberCategoryCodeSimpleType",
+    "baseLocal": "FinancialAccountNumberCategoryCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a kind of financial account number.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "FinancialAccountType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 7,
+    "children": [
+      "FinancialAccountCategoryText",
+      "FinancialAccountListedName",
+      "FinancialAccountNumberID",
+      "FinancialAccountPresentBalanceAmount",
+      "FinancialAccountClosedIndicator",
+      "FinancialAccountHolder",
+      "FinancialAccountAugmentationPoint"
+    ],
+    "documentation": "A data type for a financial account maintained by a financial institution.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "FiscalYearDateType",
+    "base": "niem-xs:gYear",
+    "baseLocal": "gYear",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a year of a twelve month period that does not necessarily correspond to the calendar year.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "FullTelephoneNumberType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "TelephoneNumberFullID",
+      "TelephoneSuffixID",
+      "FullTelephoneNumberAugmentationPoint"
+    ],
+    "documentation": "A data type for a full telephone number.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "GenericEntityType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "EntityName",
+      "EntityContactInformation",
+      "EntityDescriptionText",
+      "GenericEntityAugmentationPoint"
+    ],
+    "documentation": "A data type for a basic set of information about a person or an organization.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "HighwayType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 5,
+    "children": [
+      "HighwayFullText",
+      "HighwayName",
+      "HighwayID",
+      "HighwayPositionText",
+      "HighwayAugmentationPoint"
+    ],
+    "documentation": "A data type for a major public road.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "IdentificationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 29,
+    "children": [
+      "IdentificationID",
+      "IdentificationPerson",
+      "IdentificationJurisdiction",
+      "IdentificationCardDesignRevisionDate",
+      "IdentificationCategoryAbstract",
+      "IdentificationCategoryDescriptionText",
+      "IdentificationElectronicIndicator",
+      "IdentificationEffectiveDate",
+      "IdentificationExpirationDate",
+      "IdentificationIssueDate",
+      "IdentificationIssuerAdministrativeID",
+      "IdentificationIssuerComment",
+      "IdentificationIssuerCountry",
+      "IdentificationIssuerLocalityText",
+      "IdentificationIssuerLocation",
+      "IdentificationIssuerOrganization",
+      "IdentificationIssuerState",
+      "IdentificationIssuerSymbolImage",
+      "IdentificationIssuerText",
+      "IdentificationLimitedTermIndicator",
+      "IdentificationREALIDComplianceAbstract",
+      "IdentificationSealImage",
+      "IdentificationSignatureAuthorityName",
+      "IdentificationStatus",
+      "IdentificationStatusAdvisoryText",
+      "IdentificationStolenLostIndicator",
+      "IdentificationTitleText",
+      "IdentificationUNDistinguishingSignID",
+      "IdentificationAugmentationPoint"
+    ],
+    "documentation": "A data type for a representation of an identity.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "IdentityType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "IdentityCharacteristics",
+      "IdentityCreationDate",
+      "IdentityCreationEventText",
+      "IdentityTerminationDate",
+      "IdentityTerminationEventText",
+      "IdentityAugmentationPoint"
+    ],
+    "documentation": "A data type for a set of known aspects or characteristics by which a person is defined or recognized.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ImagePoseCodeType",
+    "base": "nc:ImagePoseCodeSimpleType",
+    "baseLocal": "ImagePoseCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for angles of an entity's pose in a photograph.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "ImageType",
+    "base": "nc:BinaryType",
+    "baseLocal": "BinaryType",
+    "childCount": 4,
+    "children": [
+      "ImageHeightValue",
+      "ImageLocation",
+      "ImageWidthValue",
+      "ImageAugmentationPoint"
+    ],
+    "documentation": "A data type for a picture or visual representation of something.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "IncidentType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 6,
+    "children": [
+      "IncidentEvent",
+      "IncidentJurisdictionalOrganization",
+      "IncidentObservationText",
+      "IncidentReportedNarrative",
+      "IncidentDayPeriodText",
+      "IncidentAugmentationPoint"
+    ],
+    "documentation": "A data type for an occurrence or an event that may require a response.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "InjuryType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 9,
+    "children": [
+      "InjuryCategoryAbstract",
+      "InjuryLocationAbstract",
+      "InjuryDate",
+      "InjuryDescriptionText",
+      "InjuryCauserAbstract",
+      "InjurySustainer",
+      "InjurySeverityAbstract",
+      "InjuryTreatment",
+      "InjuryAugmentationPoint"
+    ],
+    "documentation": "A data type for a form of harm or damage sustained by a person.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "InstantMessengerType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "InstantMessengerServiceName",
+      "InstantMessengerScreenID",
+      "InstantMessengerAugmentationPoint"
+    ],
+    "documentation": "A data type for a user account for an instant messaging program by which a person or organization may be contacted.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "InsuranceType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 11,
+    "children": [
+      "InsurancePolicyIdentification",
+      "InsuranceCarrierIdentification",
+      "InsuranceCarrierName",
+      "InsuranceActiveIndicator",
+      "InsuranceCancellationDate",
+      "InsuranceCertifiedDate",
+      "InsuranceCoverageCategoryAbstract",
+      "InsuranceCoveredItem",
+      "InsuranceEffectiveDateRange",
+      "InsurancePersonalIndicator",
+      "InsuranceAugmentationPoint"
+    ],
+    "documentation": "A data type for coverage by a contract whereby one party agrees to indemnify or guarantee another against loss by a specified contingent event or peril.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "IntangibleItemType",
+    "base": "nc:ItemType",
+    "baseLocal": "ItemType",
+    "childCount": 3,
+    "children": [
+      "IntangibleItemCategoryAbstract",
+      "IntellectualItemBusinessAreaText",
+      "IntangibleItemAugmentationPoint"
+    ],
+    "documentation": "A data type for an intellectual property item.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "IntegerListType",
+    "base": "nc:IntegerListSimpleType",
+    "baseLocal": "IntegerListSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a list of integers.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "IntegerRangeType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "RangeMaximumIntegerValue",
+      "RangeMinimumIntegerValue",
+      "IntegerRangeAugmentationPoint"
+    ],
+    "documentation": "A data type for a range of integer values.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "IntellectualPropertyType",
+    "base": "nc:IntangibleItemType",
+    "baseLocal": "IntangibleItemType",
+    "childCount": 7,
+    "children": [
+      "IntellectualPropertyRegistrationIdentification",
+      "IntellectualPropertyCreationDate",
+      "IntellectualPropertyCreationEventText",
+      "IntellectualPropertyRegistrationDate",
+      "IntellectualPropertyTerminationDate",
+      "IntellectualPropertyTerminationEventText",
+      "IntellectualPropertyAugmentationPoint"
+    ],
+    "documentation": "A data type for property that results from original thought or creativity.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "InternationalTelephoneNumberType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "TelephoneCountryCodeID",
+      "TelephoneNumberID",
+      "TelephoneSuffixID",
+      "InternationalTelephoneNumberAugmentationPoint"
+    ],
+    "documentation": "A data type for an international telephone number.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ItemContainerAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Item",
+      "Container",
+      "ItemContainerAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an item and something in which it is held.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ItemDispositionType",
+    "base": "nc:DispositionType",
+    "baseLocal": "DispositionType",
+    "childCount": 6,
+    "children": [
+      "ItemDispositionAbstract",
+      "ItemDispositionLocation",
+      "Item",
+      "ItemHoldingOrganization",
+      "ItemMovingOrganization",
+      "ItemDispositionAugmentationPoint"
+    ],
+    "documentation": "A data type for a result or outcome that happens to a property item after it has been handled or processed.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ItemEntityAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Entity",
+      "Item",
+      "ItemEntityAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an item and an entity.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ItemInsuranceAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 5,
+    "children": [
+      "Insurance",
+      "Item",
+      "InsurancePolicyHolder",
+      "RelatedActivity",
+      "ItemInsuranceAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an item and its insurance.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ItemLocationAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Location",
+      "Item",
+      "ItemLocationAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a property and a location.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ItemTransactionType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 5,
+    "children": [
+      "ItemSeller",
+      "ItemPurchasePriceValue",
+      "ItemBuyer",
+      "Item",
+      "ItemTransactionAugmentationPoint"
+    ],
+    "documentation": "A data type for a transfer of ownership of an item.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ItemType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 46,
+    "children": [
+      "ItemActionText",
+      "ItemAgeMeasure",
+      "ItemBarCodeIdentification",
+      "ItemBinary",
+      "ItemBrandName",
+      "ItemCategoryAbstract",
+      "ItemColorDescriptionText",
+      "ItemColorPrimaryAbstract",
+      "ItemColorSecondaryAbstract",
+      "ItemConditionAbstract",
+      "ItemCurrentResaleValue",
+      "ItemDealerIdentification",
+      "ItemDescriptionText",
+      "ItemDisposition",
+      "ItemFirstSoldYearDate",
+      "ItemHeightMeasure",
+      "ItemImage",
+      "ItemLeaseIndicator",
+      "ItemLengthMeasure",
+      "ItemMakeAbstract",
+      "ItemModelName",
+      "ItemModelYearDate",
+      "ItemName",
+      "ItemOtherIdentification",
+      "ItemOwner",
+      "ItemOwnerAppliedID",
+      "ItemOwnerPurchasedValue",
+      "ItemOwnershipCategoryAbstract",
+      "ItemPossessionDescriptionText",
+      "ItemPossessor",
+      "ItemQuantity",
+      "ItemReceiptIdentification",
+      "ItemRentalIndicator",
+      "ItemRFIdentification",
+      "ItemSalesTaxPercent",
+      "ItemSerialIdentification",
+      "ItemSizeDescriptionText",
+      "ItemStateIdentification",
+      "ItemStatus",
+      "ItemStyleAbstract",
+      "ItemUsageText",
+      "ItemValue",
+      "ItemVisibleID",
+      "ItemWeightMeasure",
+      "ItemWidthMeasure",
+      "ItemAugmentationPoint"
+    ],
+    "documentation": "A data type for an article or thing.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ItemValueType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 7,
+    "children": [
+      "ItemValueAmount",
+      "ItemValueAssigningMethodAbstract",
+      "ItemValueDate",
+      "ItemValueDescriptionText",
+      "ItemValueTaxIncludedIndicator",
+      "ItemValueAssigner",
+      "ItemValueAugmentationPoint"
+    ],
+    "documentation": "A data type for an evaluation of the monetary worth of an item.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "JurisdictionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "JurisdictionAbstract",
+      "JurisdictionDescriptionText",
+      "JurisdictionIdentification",
+      "JurisdictionLocation",
+      "JurisdictionRestrictionText",
+      "JurisdictionAugmentationPoint"
+    ],
+    "documentation": "A data type for a geopolitical area in which an organization, person, or object has a specific range of authority.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LanguageType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 2,
+    "children": [
+      "LanguageRepresentation",
+      "LanguageAugmentationPoint"
+    ],
+    "documentation": "A data type for a language.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LatitudeCoordinateType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "LatitudeDegreeValue",
+      "LatitudeMinuteValue",
+      "LatitudeSecondValue",
+      "LatitudeCoordinateAugmentationPoint"
+    ],
+    "documentation": "A data type for a measurement of the angular distance between a point on the Earth and the Equator.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LatitudeDegreeType",
+    "base": "nc:LatitudeDegreeSimpleType",
+    "baseLocal": "LatitudeDegreeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a degree of latitude.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "LengthMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "LengthUnitAbstract",
+      "LengthMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of a distance or extent.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LicenseEndorsementType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "LicenseEndorsementEndDate",
+      "LicenseEndorsementAbstract",
+      "LicenseEndorsementAugmentationPoint"
+    ],
+    "documentation": "A data type for an endorsement on a license or license permit which authorizes specific privileges.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LicenseMedicalCertificationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 14,
+    "children": [
+      "LicenseMedicalAssessmentCategoryAbstract",
+      "LicenseMedicalAssessmentDescriptionText",
+      "LicenseMedicalCertificationExpirationDate",
+      "LicenseMedicalCertificationIssueDate",
+      "LicenseSkillsPerformanceEvaluationEffectiveDate",
+      "LicenseSkillsPerformanceEvaluationExpirationDate",
+      "LicenseWaiverExemptEffectiveDate",
+      "LicenseWaiverExemptExpirationDate",
+      "LicenseWaiverExemptExpirationIndefiniteIndicator",
+      "LicenseMedicalCertificationRestrictionAbstract",
+      "LicenseMedicalCertificationStatusAbstract",
+      "LicenseMedicalSelfCertificationAbstract",
+      "LicenseMedicalLimitationText",
+      "LicenseMedicalCertificationAugmentationPoint"
+    ],
+    "documentation": "A data type for a medical certification associated with a license.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LicensePermitType",
+    "base": "nc:LicenseType",
+    "baseLocal": "LicenseType",
+    "childCount": 5,
+    "children": [
+      "LicensePermitClassificationText",
+      "LicensePermitStatusAbstract",
+      "LicensePermitRestriction",
+      "LicensePermitEndorsement",
+      "LicensePermitAugmentationPoint"
+    ],
+    "documentation": "A data type for a license permit issued to a person granting conditional or limited privileges.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LicenseRestrictionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "LicenseRestrictionAbstract",
+      "LicenseRestrictionDescriptionText",
+      "LicenseRestrictionEndDate",
+      "LicenseRestrictionAugmentationPoint"
+    ],
+    "documentation": "A data type for a restriction applicable to a permit or license.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LicenseType",
+    "base": "nc:IdentificationType",
+    "baseLocal": "IdentificationType",
+    "childCount": 9,
+    "children": [
+      "LicenseMedicalCertification",
+      "LicenseRatingAbstract",
+      "LicenseRatingEffectiveDate",
+      "LicenseRatingExpirationDate",
+      "LicensePermit",
+      "LicensePermitQuantity",
+      "LicenseRestriction",
+      "LicenseEndorsement",
+      "LicenseAugmentationPoint"
+    ],
+    "documentation": "A data type for an authorization issued to a person granting certain privileges.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LocaleType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 18,
+    "children": [
+      "LocaleCensusBlockID",
+      "LocaleCensusTractID",
+      "LocaleCommunityAbstract",
+      "LocaleDescriptionText",
+      "LocaleDistrictIdentification",
+      "LocaleDistrictName",
+      "LocaleEmergencyServicesName",
+      "LocaleFireJurisdictionID",
+      "LocaleJudicialDistrictAbstract",
+      "LocaleNeighborhoodName",
+      "LocalePoliceBeatText",
+      "LocalePoliceGridText",
+      "LocalePoliceJurisdictionID",
+      "LocaleRegionName",
+      "LocaleSubdivisionName",
+      "LocaleZoneName",
+      "LocaleEmergencyServicesJurisdictionID",
+      "LocaleAugmentationPoint"
+    ],
+    "documentation": "A data type for a geopolitical area.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "Location2DGeospatialCoordinateType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "GeographicDatumAbstract",
+      "GeographicCoordinateLatitude",
+      "GeographicCoordinateLongitude",
+      "Location2DGeospatialCoordinateAugmentationPoint"
+    ],
+    "documentation": "A data type for a location identified by latitude and longitude.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "Location3DGeospatialCoordinateType",
+    "base": "nc:Location2DGeospatialCoordinateType",
+    "baseLocal": "Location2DGeospatialCoordinateType",
+    "childCount": 2,
+    "children": [
+      "LocationHeightAbstract",
+      "Location3DGeospatialCoordinateAugmentationPoint"
+    ],
+    "documentation": "A data type for a location identified by latitude, longitude, and height.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LocationContactInformationAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Location",
+      "ContactInformation",
+      "LocationContactInformationAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a location and contact information.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LocationHeightMeasureType",
+    "base": "nc:LengthMeasureType",
+    "baseLocal": "LengthMeasureType",
+    "childCount": 2,
+    "children": [
+      "LocationHeightVerticalDatumAbstract",
+      "LocationHeightMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measurement of the height of a location relative to a reference point.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LocationPartType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 8,
+    "children": [
+      "LocationBedText",
+      "LocationBuildingText",
+      "LocationPartText",
+      "LocationRoomText",
+      "LocationSectionText",
+      "LocationSuiteText",
+      "LocationFloorText",
+      "LocationPartAugmentationPoint"
+    ],
+    "documentation": "A data type for a unit within a facility, building, or structure at a location.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LocationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 18,
+    "children": [
+      "LocationAddressAbstract",
+      "LocationArea",
+      "LocationCategoryAbstract",
+      "LocationContactInformation",
+      "LocationDescriptionText",
+      "LocationDirectionsText",
+      "LocationGeospatialCoordinateAbstract",
+      "LocationHeightAbstract",
+      "LocationIdentification",
+      "LocationLandmarkAbstract",
+      "LocationLocale",
+      "LocationMapLocation",
+      "LocationName",
+      "LocationPart",
+      "LocationRangeDescriptionText",
+      "LocationRelativeLocation",
+      "LocationSurroundingAreaDescriptionText",
+      "LocationAugmentationPoint"
+    ],
+    "documentation": "A data type for geospatial location.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LongitudeCoordinateType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "LongitudeDegreeValue",
+      "LongitudeMinuteValue",
+      "LongitudeSecondValue",
+      "LongitudeCoordinateAugmentationPoint"
+    ],
+    "documentation": "A data type for a measurement of the angular distance between a point on the Earth and the Prime Meridian.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "LongitudeDegreeType",
+    "base": "nc:LongitudeDegreeSimpleType",
+    "baseLocal": "LongitudeDegreeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a degree of longitude.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "ManifestType",
+    "base": "nc:DocumentType",
+    "baseLocal": "DocumentType",
+    "childCount": 3,
+    "children": [
+      "ManifestCategoryAbstract",
+      "ManifestTransmittedDate",
+      "ManifestAugmentationPoint"
+    ],
+    "documentation": "A data type for the information about the persons and/or cargo transported on a conveyance trip.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "MapLocationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 11,
+    "children": [
+      "MapCoordinateFullText",
+      "MapDate",
+      "MapElevationCoordinateText",
+      "MapHorizontalCoordinateText",
+      "MapLocationDescriptionText",
+      "MapName",
+      "MapPageID",
+      "MapQuadrantText",
+      "MapVersionID",
+      "MapVerticalCoordinateText",
+      "MapLocationAugmentationPoint"
+    ],
+    "documentation": "A data type for a location identified by map or grid coordinates.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "MeasureType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 10,
+    "children": [
+      "MeasureValueAbstract",
+      "MeasureCommentText",
+      "MeasureDate",
+      "MeasureDescriptionText",
+      "MeasureErrorAbstract",
+      "Measurer",
+      "MeasureUnitAbstract",
+      "MeasureMethodAbstract",
+      "MeasureEstimatedIndicator",
+      "MeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measurement.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "MedicalConditionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 8,
+    "children": [
+      "MedicalConditionDoctor",
+      "MedicalConditionText",
+      "MedicalConditionCauseText",
+      "MedicalConditionDescriptionText",
+      "MedicalConditionPresentIndicator",
+      "MedicalConditionSeverityAbstract",
+      "MedicalConditionDateRange",
+      "MedicalConditionAugmentationPoint"
+    ],
+    "documentation": "A data type for a state of health, on-going or present.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "MessageCategoryFATCACodeType",
+    "base": "nc:MessageCategoryFATCACodeSimpleType",
+    "baseLocal": "MessageCategoryFATCACodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for kind of Foreign Account Tax Compliance Act (FATCA) message.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "MessageType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 14,
+    "children": [
+      "MessageID",
+      "MessageRecipientAbstract",
+      "MessageRecipientAddressID",
+      "MessageReceivedDate",
+      "MessageSenderAbstract",
+      "MessageSenderAddressID",
+      "MessageSentDate",
+      "MessageSubjectText",
+      "MessageText",
+      "MessageAttachmentAbstract",
+      "MessageCategoryAbstract",
+      "MessageReferenceID",
+      "MessageFATCAUsageRestrictionAbstract",
+      "MessageAugmentationPoint"
+    ],
+    "documentation": "A data type for an electronic form of communication that can be exchanged asynchronously.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "MetadataType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 28,
+    "children": [
+      "AdministrativeID",
+      "CaveatText",
+      "Comment",
+      "ConfidencePercent",
+      "CreatorName",
+      "DescriptionText",
+      "DistributionText",
+      "EffectiveDate",
+      "EmptyReasonAbstract",
+      "EmptyReasonDescriptionText",
+      "ExpirationDate",
+      "Language",
+      "LastUpdatedDate",
+      "LastVerifiedDate",
+      "ProbabilityPercent",
+      "PublisherName",
+      "QualityComment",
+      "ReleaseDate",
+      "ReportedDate",
+      "ReportingOrganizationAbstract",
+      "ReportingPersonRoleAbstract",
+      "ReportingPersonAbstract",
+      "RepositoryID",
+      "SensitivityAbstract",
+      "SourceContactPersonAbstract",
+      "SourceIDText",
+      "SourceText",
+      "MetadataAugmentationPoint"
+    ],
+    "documentation": "A data type for information that further qualifies primary data; data about data.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "MilitaryDischargeCategoryCodeType",
+    "base": "nc:MilitaryDischargeCategoryCodeSimpleType",
+    "baseLocal": "MilitaryDischargeCategoryCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for kinds of discharges a person may receive from military service.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "MilitarySummaryType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 20,
+    "children": [
+      "MilitaryBranchName",
+      "MilitaryCountry",
+      "MilitaryDischargeCategoryAbstract",
+      "MilitaryDischargeDate",
+      "MilitaryDischargeRankText",
+      "MilitaryDisciplinaryAction",
+      "MilitaryDutiesText",
+      "MilitaryEnlistmentDate",
+      "MilitaryExemptionDescriptionText",
+      "MilitaryExperienceIndicator",
+      "MilitaryHighRankText",
+      "MilitaryInductionDate",
+      "MilitaryPersonIdentification",
+      "MilitaryReleaseCategoryAbstract",
+      "MilitaryReleaseDate",
+      "MilitaryServiceActiveIndicator",
+      "MilitaryServiceTimeMeasure",
+      "MilitaryStatus",
+      "MilitaryWorkSkillText",
+      "MilitarySummaryAugmentationPoint"
+    ],
+    "documentation": "A data type for a service of a person in a military.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "MissionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "MissionName",
+      "MissionCommencementNoEarlierThanDate",
+      "MissionCommencementNoLaterThanDate",
+      "ContactInformation",
+      "MissionID",
+      "MissionAugmentationPoint"
+    ],
+    "documentation": "A data type for a task, together with the purpose, that clearly indicates the action to be taken and the reason therefore.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "NANPTelephoneNumberType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 5,
+    "children": [
+      "TelephoneAreaCodeID",
+      "TelephoneExchangeID",
+      "TelephoneLineID",
+      "TelephoneSuffixID",
+      "NANPTelephoneNumberAugmentationPoint"
+    ],
+    "documentation": "A data type for a North American Numbering Plan telephone number.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "NonNegativeDecimalType",
+    "base": "nc:NonNegativeDecimalSimpleType",
+    "baseLocal": "NonNegativeDecimalSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a decimal value with a minimum value of 0.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "NonNegativeIntegerListType",
+    "base": "nc:NonNegativeIntegerListSimpleType",
+    "baseLocal": "NonNegativeIntegerListSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a white space-delimited list of nonnegative integers.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "NumericType",
+    "base": "niem-xs:decimal",
+    "baseLocal": "decimal",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a number value.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "ObligationExemptionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "FinancialObligationExemptionAmount",
+      "ObligationExemptionDescriptionText",
+      "ObligationExemptionAugmentationPoint"
+    ],
+    "documentation": "A data type for a waiving or a dismissal of an obligation.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ObligationRecurrenceType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "ObligationPeriodAbstract",
+      "ObligationDateRange",
+      "ObligationRecurrenceAugmentationPoint"
+    ],
+    "documentation": "A data type for a periodic basis on which an obligation must be met.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ObligationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 17,
+    "children": [
+      "ObligationTotalAbstract",
+      "ObligationDueAbstract",
+      "ObligationPaidAbstract",
+      "ObligationCompleteIndicator",
+      "ObligationComplianceIndicator",
+      "ObligationDueDate",
+      "ObligationExemption",
+      "ObligationExemptionIndicator",
+      "ObligationPaidDate",
+      "ObligationProgressDescriptionText",
+      "ObligationRequirementDescriptionText",
+      "ObligationCategoryAbstract",
+      "ObligationEntity",
+      "ObligationEntityCategoryAbstract",
+      "ObligationRecipient",
+      "ObligationRecurrence",
+      "ObligationAugmentationPoint"
+    ],
+    "documentation": "A data type for something that is owed to an entity.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "OrganizationAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 2,
+    "children": [
+      "Organization",
+      "OrganizationAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between organizations.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "OrganizationFacilityAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Facility",
+      "Organization",
+      "OrganizationFacilityAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an organization and a facility.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "OrganizationLocationAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Location",
+      "Organization",
+      "OrganizationLocationAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an organization and a location.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "OrganizationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 39,
+    "children": [
+      "OrganizationAbbreviationText",
+      "OrganizationActiveIndicator",
+      "OrganizationActivityAbstract",
+      "OrganizationBranchName",
+      "OrganizationCategoryAbstract",
+      "OrganizationDayContactInformation",
+      "OrganizationDescriptionText",
+      "OrganizationDoingBusinessAsName",
+      "OrganizationEmergencyContactInformation",
+      "OrganizationEstablishedDate",
+      "OrganizationEveningContactInformation",
+      "OrganizationForeignAffiliate",
+      "OrganizationIdentification",
+      "OrganizationIncorporatedIndicator",
+      "OrganizationIncorporationDate",
+      "OrganizationIncorporationLocation",
+      "OrganizationJurisdiction",
+      "OrganizationLEIIdentification",
+      "OrganizationLicenseIdentification",
+      "OrganizationLocalIdentification",
+      "OrganizationLocation",
+      "OrganizationName",
+      "OrganizationNameEffectiveDate",
+      "OrganizationNameTerminationDate",
+      "OrganizationNightContactInformation",
+      "OrganizationOtherIdentification",
+      "OrganizationParentAbstract",
+      "OrganizationPrimaryContactInformation",
+      "OrganizationPrincipalOfficial",
+      "OrganizationServiceHoursAbstract",
+      "OrganizationSizeAbstract",
+      "OrganizationStatus",
+      "OrganizationSubUnit",
+      "OrganizationSubUnitName",
+      "OrganizationTaxIdentification",
+      "OrganizationTerminationDate",
+      "OrganizationUnitName",
+      "OrganizationValidDate",
+      "OrganizationAugmentationPoint"
+    ],
+    "documentation": "A data type for a body of people organized for a particular purpose.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "OrganizationUnitAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Organization",
+      "OrganizationUnit",
+      "OrganizationUnitAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an organization and another organization or unit.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "OrientationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "AzimuthAbstract",
+      "InclinationAbstract",
+      "RollValue",
+      "OrientationAugmentationPoint"
+    ],
+    "documentation": "A data type for the angles of rotation about the principle axes (normal, lateral, longitudinal) of a thing, relative to true north and the horizontal plane, measured in degrees.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PassportCategoryCodeType",
+    "base": "nc:PassportCategoryCodeSimpleType",
+    "baseLocal": "PassportCategoryCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a kind of passport.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "PassportType",
+    "base": "nc:IdentificationType",
+    "baseLocal": "IdentificationType",
+    "childCount": 5,
+    "children": [
+      "PassportNumberIdentification",
+      "PassportBookIdentification",
+      "PassportCategoryAbstract",
+      "PassportTransmissionTrackingID",
+      "PassportAugmentationPoint"
+    ],
+    "documentation": "A data type for a government-issued document that authenticates the identity and citizenship of a person.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PaymentMethodCodeType",
+    "base": "nc:PaymentMethodCodeSimpleType",
+    "baseLocal": "PaymentMethodCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a specific method of payment.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "PaymentType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "PaymentAmount",
+      "PaymentMethodAbstract",
+      "PaymentAugmentationPoint"
+    ],
+    "documentation": "A data type for a monetary payment.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PercentType",
+    "base": "niem-xs:decimal",
+    "baseLocal": "decimal",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a ratio, proper fraction, or percentage, with 100% represented as the value 100.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "PermitType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "PermitIdentification",
+      "PermitCategoryAbstract",
+      "PermitRenewalDate",
+      "PermitStartDate",
+      "PermitUsageAbstract",
+      "PermitAugmentationPoint"
+    ],
+    "documentation": "A data type for a permit or official document giving a person or entity authorization to do something.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 2,
+    "children": [
+      "Person",
+      "PersonAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between people.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonCitizenshipType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "PersonCitizenshipCountry",
+      "PersonCitizenshipCategoryAbstract",
+      "PersonCitizenshipStatus",
+      "PersonCitizenshipAugmentationPoint"
+    ],
+    "documentation": "A data type for a person's position or status with a country that assigns rights, duties, and privileges because of the birth or naturalization of the person in that country.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonConveyanceAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Person",
+      "Conveyance",
+      "PersonConveyanceAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a person and a conveyance.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonDisunionType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 4,
+    "children": [
+      "PersonDisunionDecreeIndicator",
+      "PersonDisunionPendingIndicator",
+      "PersonDisunionReasonText",
+      "PersonDisunionAugmentationPoint"
+    ],
+    "documentation": "A data type for a legal termination of a Person Union.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonDocumentAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Person",
+      "Document",
+      "PersonDocumentAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a person and a document.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonEncounterType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 10,
+    "children": [
+      "PersonArmedIndicator",
+      "PersonAssaultedOfficerIndicator",
+      "PersonPossessCreditCardIndicator",
+      "PersonFraudulentIdentificationIndicator",
+      "PersonJuvenileClaimedIndicator",
+      "PersonJuvenileVerifiedIndicator",
+      "EncounterClassification",
+      "EncounterCommentText",
+      "FingerprintTakenIndicator",
+      "PersonEncounterAugmentationPoint"
+    ],
+    "documentation": "A data type for an encounter between a person of interest and a governmental element, such as an organization, official or surveillance system.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonIdentityAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 4,
+    "children": [
+      "Person",
+      "Identity",
+      "IdentityStolenIndicator",
+      "PersonIdentityAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a person and an identity.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonLanguageType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "Language",
+      "PersonComprehendsSpokenLanguageIndicator",
+      "PersonReadsLanguageIndicator",
+      "PersonSpeaksLanguageIndicator",
+      "PersonWritesLanguageIndicator",
+      "PersonLanguageAugmentationPoint"
+    ],
+    "documentation": "A data type for a language capability of a person.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonLocationAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Person",
+      "Location",
+      "PersonLocationAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a person and a location.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonNameCategoryCodeType",
+    "base": "nc:PersonNameCategoryCodeSimpleType",
+    "baseLocal": "PersonNameCategoryCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a kind of person name.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "PersonNameTextType",
+    "base": "nc:ProperNameTextType",
+    "baseLocal": "ProperNameTextType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a name by which a person is known, referred, or addressed.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "PersonNameType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 14,
+    "children": [
+      "PersonNamePrefixAbstract",
+      "PersonGivenName",
+      "PersonMiddleName",
+      "PersonSurName",
+      "PersonNameSuffixText",
+      "PersonMaidenName",
+      "PersonFullName",
+      "PersonNameCategoryAbstract",
+      "PersonNameSalutationText",
+      "PersonOfficialGivenName",
+      "PersonPreferredName",
+      "PersonSurNamePrefixText",
+      "EffectiveDate",
+      "PersonNameAugmentationPoint"
+    ],
+    "documentation": "A data type for a combination of names and/or titles by which a person is known.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonNationalityType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "PersonNationalityCountry",
+      "PersonNationalityCategoryAbstract",
+      "PersonNationalityStatus",
+      "PersonNationalityAugmentationPoint"
+    ],
+    "documentation": "A data type for a person's position or status with a country that grants a person citizenship or a country in which a person is deemed a national.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonOrganizationAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Person",
+      "Organization",
+      "PersonOrganizationAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a person and an organization.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonPronounsCodeType",
+    "base": "nc:PersonPronounsCodeSimpleType",
+    "baseLocal": "PersonPronounsCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a set of third-person pronouns that can be used in place of a person's name.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "PersonResidenceAssociationType",
+    "base": "nc:PersonLocationAssociationType",
+    "baseLocal": "PersonLocationAssociationType",
+    "childCount": 5,
+    "children": [
+      "ResidenceDescriptionText",
+      "ResidenceOccupancyCategoryAbstract",
+      "ResidencePaymentAmount",
+      "ResidencePaymentPeriodAbstract",
+      "PersonResidenceAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a person and a location where that person lives.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 84,
+    "children": [
+      "PersonAccentText",
+      "PersonAgeDescriptionText",
+      "PersonAgeMeasure",
+      "PersonBirthDate",
+      "PersonBirthLocation",
+      "PersonBloodTypeAbstract",
+      "PersonBodyXRaysAvailableAbstract",
+      "PersonBuildAbstract",
+      "PersonCapability",
+      "PersonCircumcisionIndicator",
+      "PersonCitizenship",
+      "PersonComplexionAbstract",
+      "PersonDeathDate",
+      "PersonDependentQuantity",
+      "PersonDescriptionText",
+      "PersonDigitalImage",
+      "PersonDigitizedSignatureImage",
+      "PersonDisguiseDescriptionText",
+      "PersonOrganDonorAbstract",
+      "PersonEducation",
+      "PersonEmployedIndicator",
+      "PersonEthnicityAbstract",
+      "PersonEyeColorAbstract",
+      "PersonEyewearAbstract",
+      "PersonFacialHairAbstract",
+      "PersonGeneralAppearanceDescriptionText",
+      "PersonHairAppearanceText",
+      "PersonHairCategoryAbstract",
+      "PersonHairColorAbstract",
+      "PersonHairLengthAbstract",
+      "PersonHairStyleAbstract",
+      "PersonHandednessAbstract",
+      "PersonHeightDescriptionText",
+      "PersonHeightMeasure",
+      "PersonHumanResourceIdentification",
+      "PersonInjury",
+      "PersonJewelryDescriptionText",
+      "PersonJobTitleText",
+      "PersonLanguageEnglishIndicator",
+      "PersonLearningDisabilityAbstract",
+      "PersonLicenseIdentification",
+      "PersonLivingIndicator",
+      "PersonMedicalCondition",
+      "PersonMedicalDescriptionText",
+      "PersonMedicalFileIndicator",
+      "PersonMedicationRequiredText",
+      "PersonMentalStateAbstract",
+      "PersonMilitarySummary",
+      "PersonMoodDescriptionText",
+      "PersonName",
+      "PersonNationalIdentification",
+      "PersonOrganDonorIndicator",
+      "PersonOtherIdentification",
+      "PersonPassportIdentification",
+      "PersonPhysicalDisabilityText",
+      "PersonPhysicalFeature",
+      "PersonPrimaryLanguage",
+      "PersonPronounsAbstract",
+      "PersonRaceAbstract",
+      "PersonReligionAbstract",
+      "PersonResidenceAddress",
+      "PersonResidentAbstract",
+      "PersonSecondaryLanguage",
+      "PersonSecurityClearanceAbstract",
+      "PersonSexAbstract",
+      "PersonSexualOrientationAbstract",
+      "PersonSkinToneAbstract",
+      "PersonSpeechDescriptionText",
+      "PersonSSNIdentification",
+      "PersonStateIdentification",
+      "PersonTaxIdentification",
+      "PersonUnemploymentStatus",
+      "PersonUnionStatusAbstract",
+      "PersonUSCitizenIndicator",
+      "PersonVisionPrescriptionText",
+      "PersonWeightDescriptionText",
+      "PersonWeightMeasure",
+      "PersonXRayImage",
+      "PersonNationality",
+      "PersonContactInformation",
+      "EmployeeContactInformation",
+      "PersonEmergencyContactInformation",
+      "PersonHomeContactInformation",
+      "PersonAugmentationPoint"
+    ],
+    "documentation": "A data type for a human being.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonUnionAssociationType",
+    "base": "nc:PersonAssociationType",
+    "baseLocal": "PersonAssociationType",
+    "childCount": 7,
+    "children": [
+      "PersonDisunion",
+      "PersonUnionCertificateIndicator",
+      "PersonUnionLocation",
+      "PersonUnionSeparation",
+      "PersonUnionCategoryAbstract",
+      "PersonUnionStatusAbstract",
+      "PersonUnionAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between two persons who are in a state of union with each other.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonUnionCategoryCodeType",
+    "base": "nc:PersonUnionCategoryCodeSimpleType",
+    "baseLocal": "PersonUnionCategoryCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type describing the legally recognized union between two persons.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "PersonUnionSeparationType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 3,
+    "children": [
+      "SeparationCategoryAbstract",
+      "SeparationDateRange",
+      "PersonUnionSeparationAugmentationPoint"
+    ],
+    "documentation": "A data type for a separation of the parties in a Person Union.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PersonUnionStatusCodeType",
+    "base": "nc:PersonUnionStatusCodeSimpleType",
+    "baseLocal": "PersonUnionStatusCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type describing the legal status of a person's union with another person.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "PersonWorkerAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 4,
+    "children": [
+      "Person",
+      "PersonWorker",
+      "Activity",
+      "PersonWorkerAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a person and a person assigned to do work for or on behalf of that person.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PhysicalFeatureType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "PhysicalFeatureGeneralCategoryAbstract",
+      "PhysicalFeatureCategoryAbstract",
+      "PhysicalFeatureDescriptionText",
+      "PhysicalFeatureImage",
+      "PhysicalFeatureLocationText",
+      "PhysicalFeatureAugmentationPoint"
+    ],
+    "documentation": "A data type for a prominent or easily identifiable aspect of something or someone.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PlanType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 19,
+    "children": [
+      "PlanActivationDecisionText",
+      "PlanApprovalDate",
+      "PlanApprovalEntity",
+      "PlanAssignedPerson",
+      "PlanComment",
+      "PlanCreatedDate",
+      "PlanDateRange",
+      "PlanEstimatedFulfillmentDate",
+      "PlanIdentification",
+      "PlanName",
+      "PlanOperationalObjectiveText",
+      "PlanPurposeText",
+      "PlanReleaseDate",
+      "PlanReport",
+      "PlanRevisionReleaseDate",
+      "PlanTargetOutcomeText",
+      "PlanTask",
+      "PlanUpdatedDate",
+      "PlanAugmentationPoint"
+    ],
+    "documentation": "A data type for a detailed proposal for doing or achieving something.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PolygonRegionType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 2,
+    "children": [
+      "PolygonNodeLocation",
+      "PolygonRegionAugmentationPoint"
+    ],
+    "documentation": "A data type for a polygon area identified by a set of coordinates.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PositiveIntegerListType",
+    "base": "nc:PositiveIntegerListSimpleType",
+    "baseLocal": "PositiveIntegerListSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a white space-delimited list of positive integers.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "PreviousActivityAssociationType",
+    "base": "nc:RelatedActivityAssociationType",
+    "baseLocal": "RelatedActivityAssociationType",
+    "childCount": 2,
+    "children": [
+      "PreviousActivity",
+      "PreviousActivityAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between an activity and a previous activity.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ProgramType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 14,
+    "children": [
+      "ProgramPerson",
+      "ProgramAction",
+      "ProgramCapacityQuantity",
+      "ProgramCondition",
+      "ProgramFacility",
+      "ProgramPubliclyRunIndicator",
+      "ProgramPurposeText",
+      "ProgramReferral",
+      "ProgramAdministrator",
+      "ProgramRelease",
+      "ProgramSupervisor",
+      "ProgramResidentialIndicator",
+      "ProgramSupervisedIndicator",
+      "ProgramAugmentationPoint"
+    ],
+    "documentation": "A data type for a set of projects, activities, or services intended to meet a need.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ProgressType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 5,
+    "children": [
+      "ProgressComplianceIndicator",
+      "ProgressComplianceAbstract",
+      "ProgressPaymentAmount",
+      "ProgressTimeQuantityText",
+      "ProgressAugmentationPoint"
+    ],
+    "documentation": "A data type for a set of changes or advancements which bring someone closer to completing something.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ProperNameTextType",
+    "base": "nc:TextType",
+    "baseLocal": "TextType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a word or phrase by which a person or thing is known, referred, or addressed.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "PublicationType",
+    "base": "nc:DocumentType",
+    "baseLocal": "DocumentType",
+    "childCount": 10,
+    "children": [
+      "PublicationAuthorText",
+      "PublicationDate",
+      "PublicationISBNID",
+      "PublicationISSNID",
+      "PublicationLibraryClassificationIdentification",
+      "PublicationPageText",
+      "PublicationPublisherText",
+      "PublicationSubjectText",
+      "PublicationTitleText",
+      "PublicationAugmentationPoint"
+    ],
+    "documentation": "A data type for a collection of written, printed, illustrated, or blank sheets, made of paper, parchment, or other material, usually fastened together to hinge at one side.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "PublicServiceType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 14,
+    "children": [
+      "PublicServiceName",
+      "PublicServiceDescriptionText",
+      "PublicServiceCategoryAbstract",
+      "PublicServiceLanguage",
+      "PublicServiceWebsiteURI",
+      "PublicServiceChannelAbstract",
+      "PublicServiceLocation",
+      "PublicServiceRequiredService",
+      "PublicServiceRelatedService",
+      "PublicServiceInputResourceDocument",
+      "PublicServiceOutputResourceDocument",
+      "PublicServiceRelatedLocation",
+      "PublicServiceAvailabilitySchedule",
+      "PublicServiceAugmentationPoint"
+    ],
+    "documentation": "A data type for a set of deeds and acts performed by or on behalf of a public agency for the benefit of a citizen, a business or another public agency.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "QuantityType",
+    "base": "nc:NumericType",
+    "baseLocal": "NumericType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a count or tally.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "QuarterIDType",
+    "base": "nc:QuarterIDSimpleType",
+    "baseLocal": "QuarterIDSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for an identifier of a three-month period in a calendar or fiscal year.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "RealEstateType",
+    "base": "nc:ItemType",
+    "baseLocal": "ItemType",
+    "childCount": 4,
+    "children": [
+      "RealEstateAcreageText",
+      "RealEstateBoundaryDescriptionText",
+      "RealEstateAttachedFacility",
+      "RealEstateAugmentationPoint"
+    ],
+    "documentation": "A data type for a piece of land and any permanent structures and natural resources on it.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "RecommendationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 8,
+    "children": [
+      "RecommendationDescriptionText",
+      "RecommendationEntity",
+      "RecommendationSubjectText",
+      "RecommendationDate",
+      "RecommendationCategoryAbstract",
+      "RecommendationComment",
+      "RecommendationText",
+      "RecommendationAugmentationPoint"
+    ],
+    "documentation": "A data type for a suggestion or proposal as to the best course of action.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ReferralType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 8,
+    "children": [
+      "ReferralActivity",
+      "ReferralIssuer",
+      "ReferralMandatoryIndicator",
+      "ReferralSupervisor",
+      "ReferralItem",
+      "ReferralEntity",
+      "ReferralPerson",
+      "ReferralAugmentationPoint"
+    ],
+    "documentation": "A data type for a recommendation of a person to an activity, program, or product.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "RelatedActivityAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "Activity",
+      "ActivityRelationAbstract",
+      "RelatedActivityAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between related activities.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "RelativeLocationHeadingType",
+    "base": "nc:RelativeLocationHeadingSimpleType",
+    "baseLocal": "RelativeLocationHeadingSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a compass heading of a direction from a reference location.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "RelativeLocationType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "RelativeLocationDescriptionText",
+      "RelativeLocationDirectionAbstract",
+      "RelativeLocationDistanceMeasure",
+      "RelativeLocationHeadingValue",
+      "RelativeLocationReferencePoint",
+      "RelativeLocationAugmentationPoint"
+    ],
+    "documentation": "A data type for a location identified by its proximity to another location.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ReleaseType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 8,
+    "children": [
+      "ReleasePerson",
+      "ReleaseFromLocation",
+      "ReleaseIssuer",
+      "ReleaseItem",
+      "ReleaseRecipient",
+      "ReleaseToLocation",
+      "ReleaseSupervisor",
+      "ReleaseAugmentationPoint"
+    ],
+    "documentation": "A data type for a freeing or discharging of someone or something from an activity, supervision, or obligation.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ReportType",
+    "base": "nc:DocumentType",
+    "baseLocal": "DocumentType",
+    "childCount": 7,
+    "children": [
+      "ReportAssignee",
+      "ReportCoverageDateRange",
+      "ReportDueDate",
+      "ReportFrequencyAbstract",
+      "ReportID",
+      "ReportTemplateCategoryAbstract",
+      "ReportAugmentationPoint"
+    ],
+    "documentation": "A data type for an account given of a particular matter, especially in the form of an official document, after thorough investigation or consideration by an appointed person or body.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "RequestType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 10,
+    "children": [
+      "RequestContactInformation",
+      "RequestDate",
+      "RequestDecisionText",
+      "RequestDescriptionText",
+      "RequestIdentification",
+      "RequestText",
+      "RequestDecisionDate",
+      "RequestCategoryAbstract",
+      "RequestStatus",
+      "RequestAugmentationPoint"
+    ],
+    "documentation": "A data type for a formal message requesting something that is submitted to an authority.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ScheduleDayType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 8,
+    "children": [
+      "ScheduleActivityText",
+      "ScheduleDayAbstract",
+      "ScheduleDayStatus",
+      "ScheduleTimeRange",
+      "SchedulePerson",
+      "ScheduleDayStartTime",
+      "ScheduleDayEndTime",
+      "ScheduleDayAugmentationPoint"
+    ],
+    "documentation": "A data type for a plan or agenda for the activities of a day.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "ScheduleType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 8,
+    "children": [
+      "ScheduleDay",
+      "ScheduleDescriptionText",
+      "ScheduleEffectiveDateRange",
+      "ScheduleExceptionsDescriptionText",
+      "ScheduleNonStopIndicator",
+      "ScheduleStatus",
+      "ScheduleWeekAbstract",
+      "ScheduleAugmentationPoint"
+    ],
+    "documentation": "A data type for a schedule providing the beginning and ending hours of operation by weekday, for a designated time period.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "SecuritiesType",
+    "base": "nc:ItemType",
+    "baseLocal": "ItemType",
+    "childCount": 6,
+    "children": [
+      "SecuritiesCollectionDateRange",
+      "SecuritiesDateSeriesAbstract",
+      "SecuritiesDenominationAbstract",
+      "SecuritiesCategoryAbstract",
+      "SecuritiesIssuer",
+      "SecuritiesAugmentationPoint"
+    ],
+    "documentation": "A data type for a financial instrument showing ownership or credit.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "SeparationCategoryCodeType",
+    "base": "nc:SeparationCategoryCodeSimpleType",
+    "baseLocal": "SeparationCategoryCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a code that identifies the type of separation between the parties in a Person Union.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "SiteType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 6,
+    "children": [
+      "SiteLocation",
+      "SiteMobileDescriptionText",
+      "SiteMobileIndicator",
+      "SiteOwnerEntity",
+      "SiteSpecialInformationText",
+      "SiteAugmentationPoint"
+    ],
+    "documentation": "A data type for a specific place or position.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "SoftwareComponentType",
+    "base": "nc:ItemType",
+    "baseLocal": "ItemType",
+    "childCount": 2,
+    "children": [
+      "SoftwareComponentVersionID",
+      "SoftwareComponentAugmentationPoint"
+    ],
+    "documentation": "A data type for a component of software.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "SoftwareType",
+    "base": "nc:ItemType",
+    "baseLocal": "ItemType",
+    "childCount": 6,
+    "children": [
+      "SoftwareName",
+      "SoftwareComponent",
+      "SoftwareDescriptionText",
+      "SoftwareVendorName",
+      "SoftwareVersionText",
+      "SoftwareAugmentationPoint"
+    ],
+    "documentation": "A data type for a computer application used to process data.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "SpeedMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "SpeedUnitAbstract",
+      "SpeedMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of a speed or rate of motion.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "StateType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 2,
+    "children": [
+      "StateRepresentation",
+      "StateAugmentationPoint"
+    ],
+    "documentation": "A data type for a state, commonwealth, province, or other such geopolitical subdivision of a country.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "StatusType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 7,
+    "children": [
+      "StatusAbstract",
+      "StatusCommentText",
+      "StatusDescriptionText",
+      "StatusIssuerIdentification",
+      "StatusIssuerText",
+      "StatusDate",
+      "StatusAugmentationPoint"
+    ],
+    "documentation": "A data type for a state of something or someone.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "StreetDirectionalType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 2,
+    "children": [
+      "StreetDirectionalRepresentation",
+      "StreetDirectionalAugmentationPoint"
+    ],
+    "documentation": "A data type for a direction that appears in a street name.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "StreetType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 8,
+    "children": [
+      "StreetFullText",
+      "StreetNumberText",
+      "StreetPredirectional",
+      "StreetName",
+      "StreetCategoryAbstract",
+      "StreetPostdirectional",
+      "StreetExtensionText",
+      "StreetAugmentationPoint"
+    ],
+    "documentation": "A data type for a road, thoroughfare, or highway.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "StringListType",
+    "base": "nc:StringListSimpleType",
+    "baseLocal": "StringListSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a white space-delimited list of string.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "StudentType",
+    "base": "nc:PersonType",
+    "baseLocal": "PersonType",
+    "childCount": 2,
+    "children": [
+      "StudentIdentification",
+      "StudentAugmentationPoint"
+    ],
+    "documentation": "A data type for a person formally engaged in learning, especially one enrolled in a school or college.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "SubstanceMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "SubstanceUnitAbstract",
+      "SubstanceMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of the amount of something.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "SubstanceType",
+    "base": "nc:ItemType",
+    "baseLocal": "ItemType",
+    "childCount": 8,
+    "children": [
+      "SubstanceCategoryAbstract",
+      "SubstanceAbstract",
+      "SubstanceContainerDescriptionText",
+      "SubstanceQuantityMeasure",
+      "SubstanceCompositionDescriptionText",
+      "SubstanceFormAbstract",
+      "SubstanceFoundDescriptionText",
+      "SubstanceAugmentationPoint"
+    ],
+    "documentation": "A data type for the matter or substance of which something consists.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "SupervisionType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 9,
+    "children": [
+      "SupervisionCurrentIndicator",
+      "SupervisionCustodyStatus",
+      "SupervisionFacility",
+      "SupervisionMandatoryIndicator",
+      "SupervisionRelease",
+      "SupervisionPerson",
+      "SupervisionPersonStatus",
+      "SupervisionSupervisor",
+      "SupervisionAugmentationPoint"
+    ],
+    "documentation": "A data type for an act of officially overseeing, supervising, or keeping track in some capacity of a person.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "SystemAuditEventType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 3,
+    "children": [
+      "SystemOperatingModeAbstract",
+      "SystemUserNameAbstract",
+      "SystemAuditEventAugmentationPoint"
+    ],
+    "documentation": "A data type for a system event for audit reporting purposes.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "SystemIdentificationType",
+    "base": "nc:IdentificationType",
+    "baseLocal": "IdentificationType",
+    "childCount": 2,
+    "children": [
+      "SystemName",
+      "SystemIdentificationAugmentationPoint"
+    ],
+    "documentation": "A data type for a number or code assigned to a system to uniquely identify the system.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "TaskType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 16,
+    "children": [
+      "TaskAssignedDate",
+      "TaskAssignedEntity",
+      "TaskCompletedIndicator",
+      "TaskCompletedPercent",
+      "TaskDescriptionText",
+      "TaskDueDate",
+      "TaskEndDate",
+      "TaskFunctionAbstract",
+      "TaskID",
+      "TaskLocation",
+      "TaskName",
+      "TaskOutcomeDescriptionText",
+      "TaskStartDate",
+      "TaskStatus",
+      "TaskSuccessCriteriaText",
+      "TaskAugmentationPoint"
+    ],
+    "documentation": "A data type for a clearly defined action or activity specifically assigned to an individual or organization that must be done as it is imposed by an appropriate authority.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "TelecommunicationDeviceSIMCardAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 3,
+    "children": [
+      "TelecommunicationDevice",
+      "SIMCard",
+      "TelecommunicationDeviceSIMCardAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a telecommunication device and a SIM card.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "TelephoneNumberType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 4,
+    "children": [
+      "TelephoneNumberAbstract",
+      "TelephoneNumberCategoryAbstract",
+      "TelephoneNumberDescriptionText",
+      "TelephoneNumberAugmentationPoint"
+    ],
+    "documentation": "A data type for a telephone number for a telecommunication device.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "TemperatureMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "TemperatureUnitAbstract",
+      "TemperatureMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of a temperature.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "TextType",
+    "base": "niem-xs:string",
+    "baseLocal": "string",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a character string.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "TimeMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "TimeUnitAbstract",
+      "TimeMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of an amount of time.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "TimeRangeType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "BeginTime",
+      "EndTime",
+      "TimeRangeAugmentationPoint"
+    ],
+    "documentation": "A data type for a start and end time.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "TokenListType",
+    "base": "nc:TokenListSimpleType",
+    "baseLocal": "TokenListSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a white space-delimited list of tokens.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "TransportationAssociationType",
+    "base": "nc:AssociationType",
+    "baseLocal": "AssociationType",
+    "childCount": 6,
+    "children": [
+      "Conveyance",
+      "ConveyedItem",
+      "ConveyanceOperator",
+      "ConveyedPerson",
+      "ConveyancePassengerQuantity",
+      "TransportationAssociationAugmentationPoint"
+    ],
+    "documentation": "A data type for an association between a conveyance and the people and/or goods it transported.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "TreatmentType",
+    "base": "nc:ActivityType",
+    "baseLocal": "ActivityType",
+    "childCount": 4,
+    "children": [
+      "TreatmentText",
+      "TreatmentProvider",
+      "Person",
+      "TreatmentAugmentationPoint"
+    ],
+    "documentation": "A data type for a treatment of a person for a mental or physical condition.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "UnsignedIntegerRangeType",
+    "base": "structures:ObjectType",
+    "baseLocal": "ObjectType",
+    "childCount": 3,
+    "children": [
+      "RangeMaximumUnsignedIntegerValue",
+      "RangeMinimumUnsignedIntegerValue",
+      "UnsignedIntegerRangeAugmentationPoint"
+    ],
+    "documentation": "A data type for a range of unsigned integer values.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "UTMCoordinateType",
+    "base": "nc:UTMCoordinateSimpleType",
+    "baseLocal": "UTMCoordinateSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a coordinate from the Universal Transverse Mercator (UTM) Coordinate System, which represents a location with a hemisphere, zone, an easting value, and a northing value.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "VehicleType",
+    "base": "nc:ConveyanceType",
+    "baseLocal": "ConveyanceType",
+    "childCount": 18,
+    "children": [
+      "VehicleCMVIndicator",
+      "VehicleColorInteriorAbstract",
+      "VehicleDoorQuantity",
+      "VehicleIdentification",
+      "VehicleMakeAbstract",
+      "VehicleModelAbstract",
+      "VehicleMSRPAmount",
+      "VehicleOdometerReadingMeasure",
+      "VehiclePassengerSafeQuantity",
+      "VehicleSeatingQuantity",
+      "VehicleTransmissionCategoryAbstract",
+      "VehicleAxleQuantity",
+      "VehicleCurrentWeightMeasure",
+      "VehicleGrossLadenSumWeightMeasure",
+      "VehicleGrossLadenUnitWeightMeasure",
+      "VehicleMaximumLoadWeightMeasure",
+      "VehicleUnladenWeightMeasure",
+      "VehicleAugmentationPoint"
+    ],
+    "documentation": "A data type for a conveyance designed to carry an operator, passengers and/or cargo, over land.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "VelocityMeasureType",
+    "base": "nc:SpeedMeasureType",
+    "baseLocal": "SpeedMeasureType",
+    "childCount": 2,
+    "children": [
+      "Bearing",
+      "VelocityMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a velocity measurement.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "VesselType",
+    "base": "nc:ConveyanceType",
+    "baseLocal": "ConveyanceType",
+    "childCount": 8,
+    "children": [
+      "VesselMakeAbstract",
+      "VesselCategoryAbstract",
+      "VesselHullIdentification",
+      "VesselHullMaterialAbstract",
+      "VesselHullShapeAbstract",
+      "VesselPropulsionAbstract",
+      "VesselTrailer",
+      "VesselAugmentationPoint"
+    ],
+    "documentation": "A data type for a mode of transportation capable of transport by water.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "VolumeMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "VolumeUnitAbstract",
+      "VolumeMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of an amount of space.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "WeaponType",
+    "base": "nc:ItemType",
+    "baseLocal": "ItemType",
+    "childCount": 4,
+    "children": [
+      "WeaponUser",
+      "WeaponInvolvedInActivity",
+      "WeaponUsageAbstract",
+      "WeaponAugmentationPoint"
+    ],
+    "documentation": "A data type for a property item used as an instrument of attack or defense.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "WeightMeasureType",
+    "base": "nc:MeasureType",
+    "baseLocal": "MeasureType",
+    "childCount": 2,
+    "children": [
+      "WeightUnitAbstract",
+      "WeightMeasureAugmentationPoint"
+    ],
+    "documentation": "A data type for a measure of a weight.",
+    "kind": "complexContent-extension"
+  },
+  {
+    "name": "YesNoUnknownCodeType",
+    "base": "nc:YesNoUnknownCodeSimpleType",
+    "baseLocal": "YesNoUnknownCodeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a ternary or three-option indicator representing true/yes, false/no, and unknown.",
+    "kind": "simpleContent-wrapper"
+  },
+  {
+    "name": "ZuluDateTimeType",
+    "base": "nc:ZuluDateTimeSimpleType",
+    "baseLocal": "ZuluDateTimeSimpleType",
+    "childCount": 0,
+    "children": [],
+    "documentation": "A data type for a dateTime constrained to always be Zulu time, time at the Zero Meridian.",
+    "kind": "simpleContent-wrapper"
+  }
+]

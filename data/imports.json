@@ -1,0 +1,18 @@
+[
+  {
+    "namespace": "http://www.w3.org/XML/1998/namespace",
+    "schemaLocation": "external/xml.xsd"
+  },
+  {
+    "namespace": "https://docs.oasis-open.org/niemopen/ns/model/adapters/niem-xs/6.0/",
+    "schemaLocation": "adapters/niem-xs.xsd"
+  },
+  {
+    "namespace": "https://docs.oasis-open.org/niemopen/ns/model/structures/6.0/",
+    "schemaLocation": "utility/structures.xsd"
+  },
+  {
+    "namespace": "https://docs.oasis-open.org/niemopen/ns/specification/code-lists/6.0/instance/",
+    "schemaLocation": "utility/code-lists-instance.xsd"
+  }
+]

@@ -1,0 +1,331 @@
+{
+  "file": "niem-core.xsd",
+  "targetNamespace": "https://docs.oasis-open.org/niemopen/ns/model/niem-core/6.0/",
+  "version": "ps02",
+  "schemaDocumentation": "NIEM Core.",
+  "imports": 4,
+  "localTerms": 31,
+  "complexTypes": 250,
+  "simpleTypes": 41,
+  "elements": 1860,
+  "abstractElements": 444,
+  "nillableElements": 1416,
+  "substitutionGroupElements": 310,
+  "totalEdges": 3433,
+  "relationCounts": {
+    "extends": 250,
+    "hasElement": 1416,
+    "typedBy": 1416,
+    "substitutionGroup": 310,
+    "restrictsOrLists": 41
+  },
+  "topComplexTypesByChildCount": [
+    {
+      "name": "PersonType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 84,
+      "documentation": "A data type for a human being.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "DocumentType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 65,
+      "documentation": "A data type for a paper or electronic document.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "ItemType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 46,
+      "documentation": "A data type for an article or thing.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "OrganizationType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 39,
+      "documentation": "A data type for a body of people organized for a particular purpose.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "IdentificationType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 29,
+      "documentation": "A data type for a representation of an identity.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "ActivityType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 28,
+      "documentation": "A data type for a single or set of related actions, events, or process steps.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "MetadataType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 28,
+      "documentation": "A data type for information that further qualifies primary data; data about data.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "EmploymentAssociationType",
+      "base": "nc:AssociationType",
+      "baseLocal": "AssociationType",
+      "childCount": 26,
+      "documentation": "A data type for an association between an employee and an employer.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "MilitarySummaryType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 20,
+      "documentation": "A data type for a service of a person in a military.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "FacilityType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 19,
+      "documentation": "A data type for one or more buildings, places, or structures that together provide a particular service.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "PlanType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 19,
+      "documentation": "A data type for a detailed proposal for doing or achieving something.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "LocaleType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 18,
+      "documentation": "A data type for a geopolitical area.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "LocationType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 18,
+      "documentation": "A data type for geospatial location.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "VehicleType",
+      "base": "nc:ConveyanceType",
+      "baseLocal": "ConveyanceType",
+      "childCount": 18,
+      "documentation": "A data type for a conveyance designed to carry an operator, passengers and/or cargo, over land.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "ObligationType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 17,
+      "documentation": "A data type for something that is owed to an entity.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "AssessmentType",
+      "base": "nc:ActivityType",
+      "baseLocal": "ActivityType",
+      "childCount": 16,
+      "documentation": "A data type for an evaluation, appraisal, or assessment of something or someone.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "EmploymentPositionType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 16,
+      "documentation": "A data type for a job, post, or group of duties and responsibilities to be performed by an employee.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "TaskType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 16,
+      "documentation": "A data type for a clearly defined action or activity specifically assigned to an individual or organization that must be done as it is imposed by an appropriate authority.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "AddressType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 14,
+      "documentation": "A data type for a geophysical location described by postal information.",
+      "kind": "complexContent-extension"
+    },
+    {
+      "name": "BinaryType",
+      "base": "structures:ObjectType",
+      "baseLocal": "ObjectType",
+      "childCount": 14,
+      "documentation": "A data type for a digital representation of an object encoded in a binary format.",
+      "kind": "complexContent-extension"
+    }
+  ],
+  "topSimpleTypesByEnumerationCount": [
+    {
+      "name": "DirectionCodeSimpleType",
+      "base": "xs:string",
+      "baseLocal": "string",
+      "enumerationCount": 16,
+      "documentation": "A data type for compass directions."
+    },
+    {
+      "name": "MilitaryDischargeCategoryCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 9,
+      "documentation": "A data type for kinds of discharges a person may receive from military service."
+    },
+    {
+      "name": "BinaryHashFunctionCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 8,
+      "documentation": "A data type for a hash function used to generate a hash value representing an object encoded in a binary format."
+    },
+    {
+      "name": "DayOfWeekCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 7,
+      "documentation": "A data type for days of the week."
+    },
+    {
+      "name": "PersonUnionStatusCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 7,
+      "documentation": "A data type describing the legal status of a person's union with another person."
+    },
+    {
+      "name": "ContactInformationAvailabilityCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 6,
+      "documentation": "A data type for a period of time or a situation in which an entity is available to be contacted with the given contact information."
+    },
+    {
+      "name": "EmptyReasonCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 6,
+      "documentation": "A data type for a reason why a data value was not provided."
+    },
+    {
+      "name": "PaymentMethodCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 6,
+      "documentation": "A data type for a specific method of payment."
+    },
+    {
+      "name": "PersonPronounsCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 6,
+      "documentation": "A data type for a set of third-person pronouns that can be used in place of a person's name."
+    },
+    {
+      "name": "AddressCategoryCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 5,
+      "documentation": "A data type for a kind of address."
+    },
+    {
+      "name": "FinancialAccountNumberCategoryCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 5,
+      "documentation": "A data type for a kind of financial account number."
+    },
+    {
+      "name": "PersonUnionCategoryCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 5,
+      "documentation": "A data type describing the legally recognized union between two persons."
+    },
+    {
+      "name": "PersonNameCategoryCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 4,
+      "documentation": "A data type for a kind of person name."
+    },
+    {
+      "name": "EmploymentPositionBasisCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 3,
+      "documentation": "A data type for a nature or duration of the employment position."
+    },
+    {
+      "name": "FinancialAccountHolderCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 3,
+      "documentation": "A data type for a kind of financial account holder."
+    },
+    {
+      "name": "ImagePoseCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 3,
+      "documentation": "A data type for angles of an entity's pose in a photograph."
+    },
+    {
+      "name": "PassportCategoryCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 3,
+      "documentation": "A data type for a kind of passport."
+    },
+    {
+      "name": "SeparationCategoryCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 3,
+      "documentation": "A data type for a code that identifies the type of separation between the parties in a Person Union."
+    },
+    {
+      "name": "YesNoUnknownCodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 3,
+      "documentation": "A data type for a ternary or three-option indicator representing true/yes, false/no, and unknown."
+    },
+    {
+      "name": "MessageCategoryFATCACodeSimpleType",
+      "base": "xs:token",
+      "baseLocal": "token",
+      "enumerationCount": 2,
+      "documentation": "A data type for kind of Foreign Account Tax Compliance Act (FATCA) message."
+    }
+  ],
+  "topTypePrefixes": {
+    "nc": 1217,
+    "niem-xs": 199,
+    "(none)": 444
+  }
+}

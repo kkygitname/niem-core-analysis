@@ -1,0 +1,4707 @@
+[
+  {
+    "source": "ActivityConveyanceAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ActivityConveyanceAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityConveyanceAssociationType",
+    "target": "Conveyance",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityDocumentAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ActivityDocumentAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityDocumentAssociationType",
+    "target": "Document",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityFacilityAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ActivityFacilityAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityFacilityAssociationType",
+    "target": "Facility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityItemAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ActivityItemAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityItemAssociationType",
+    "target": "Item",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityOrganizationAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ActivityOrganizationAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityOrganizationAssociationType",
+    "target": "Organization",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityPersonAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ActivityPersonAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityPersonAssociationType",
+    "target": "Person",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityScheduleAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ActivityScheduleAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivitySiteAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ActivitySiteAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityActualDuration",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityApprovedIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityAssignedDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityCapacityQuantity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityComment",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityCompletedIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityContactEntity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityDisposition",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityDueDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityEffectiveDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityEstimatedDuration",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityFrequencyText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityNarrative",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityPrescribedDuration",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityReasonAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityReportedDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityRequestedDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityScheduledDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivitySequenceNumeric",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityStatus",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityVerifiedDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ActivityType",
+    "target": "ActivityAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressFullText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressPrivateMailboxText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressSecondaryUnitText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressDeliveryPointAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressRecipientName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressCityName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressCountyAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressState",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressCountry",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressPostalCode",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressPostalExtensionCode",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressUrbanizationName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AddressType",
+    "target": "AddressAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AircraftType",
+    "target": "ConveyanceType",
+    "relation": "extends"
+  },
+  {
+    "source": "AircraftType",
+    "target": "AircraftCallSignIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AircraftType",
+    "target": "AircraftTailIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AirportType",
+    "target": "FacilityType",
+    "relation": "extends"
+  },
+  {
+    "source": "AngleMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "AngularRateMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "AreaMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "AssessmentType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "AssessmentType",
+    "target": "AssessmentPerson",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AssessmentType",
+    "target": "AssessmentReport",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "AssociationType",
+    "target": "AssociationDateRange",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AssociationType",
+    "target": "AssociationDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "AssociationType",
+    "target": "AssociationAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "CaseType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "CaseType",
+    "target": "CaseTitleText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "CaseType",
+    "target": "CaseCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "CaseType",
+    "target": "CaseGeneralCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "CaseType",
+    "target": "CaseYearDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "CaseType",
+    "target": "CaseTrackingID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "CaseType",
+    "target": "CaseSubCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "CaseType",
+    "target": "CaseDocketID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "CaseType",
+    "target": "CaseResolutionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "CaseType",
+    "target": "CaseFiling",
+    "relation": "hasElement"
+  },
+  {
+    "source": "CaseType",
+    "target": "CaseAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConditionType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "ConditionType",
+    "target": "ConditionSetDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConditionType",
+    "target": "ConditionViolationDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConsumptionRateMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "ContactInformationType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "ContactInformationType",
+    "target": "ContactMeansAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ContactInformationType",
+    "target": "ContactEntity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ContactInformationType",
+    "target": "ContactEntityDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ContactInformationType",
+    "target": "ContactInformationCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ContactInformationType",
+    "target": "ContactInformationDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ContactInformationType",
+    "target": "ContactResponder",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ContactInformationType",
+    "target": "ContactInformationAvailabilityAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ContactInformationType",
+    "target": "ContactInformationAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConveyanceType",
+    "target": "ItemType",
+    "relation": "extends"
+  },
+  {
+    "source": "ConveyanceType",
+    "target": "ConveyanceCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConveyanceType",
+    "target": "ConveyanceCargoText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConveyanceType",
+    "target": "ConveyanceEngineQuantity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConveyanceType",
+    "target": "ConveyanceFuelCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConveyanceType",
+    "target": "ConveyanceMotorizedIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConveyanceType",
+    "target": "ConveyanceTowedIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConveyanceType",
+    "target": "ConveyanceUseAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ConveyanceType",
+    "target": "ConveyanceAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DateType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "DateType",
+    "target": "DateRepresentation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DateType",
+    "target": "DateAccuracyAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DateType",
+    "target": "DateMarginOfErrorDuration",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DateType",
+    "target": "DateAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DeviceInformationAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "DeviceInformationAssociationType",
+    "target": "DeviceUser",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DeviceInformationAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DeviceType",
+    "target": "ItemType",
+    "relation": "extends"
+  },
+  {
+    "source": "DeviceType",
+    "target": "DeviceESNIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DeviceType",
+    "target": "DeviceIMEIIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DeviceType",
+    "target": "DeviceStoredContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DisciplinaryActionType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "DisciplinaryActionType",
+    "target": "DisciplinaryActionPerson",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DisciplinaryActionType",
+    "target": "DisciplinaryActionCommunityService",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DisciplinaryActionType",
+    "target": "DisciplinaryActionCounseling",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "DocumentAssociationType",
+    "target": "PrimaryDocument",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentAssociationType",
+    "target": "SecondaryDocument",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentApprovedIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentAuthor",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentCategoryDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentContentAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentContentListText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentContributor",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentCopyrightIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentCountry",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentCoverageAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentCreationDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentDispositionAuthorityName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentDispositionInstructionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentDisputedIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentDisputedReasonAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentEffectiveDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentEntrySubmitter",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentEUDataPrivacyIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentExpirationDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentFileControlID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentFiledDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentFileExtensionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentFileName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentFormatCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentFormatAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentGroupID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentInformationCutOffDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentIntelligenceCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentIssuanceLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentIssueDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentKeywordAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentLanguage",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentLastModifiedDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentLocationURI",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentManagementCyclePeriodText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentOtherRecipient",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentPermanentRecordIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentPhysicalMediumCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentPhysicalMediumText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentPostDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentPrivacyActIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentPublicationDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentReceivedDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentRecipient",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentRelatedResourceText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentRightsText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentSensitivityAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentSequenceID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentSoftware",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentSource",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentSourceText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentStatus",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentStatusCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentSubjectAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentSubmissionAmount",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentSubmitter",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentSummaryText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentSupplementalMarkingText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentTitleAlternativeText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentTitleText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentVitalIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "DocumentType",
+    "target": "DocumentAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "EmploymentAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "EmploymentAssociationType",
+    "target": "Employee",
+    "relation": "hasElement"
+  },
+  {
+    "source": "EmploymentAssociationType",
+    "target": "EmployeeContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "EmploymentAssociationType",
+    "target": "EmployeeIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "EmploymentAssociationType",
+    "target": "EmploymentLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "EmploymentAssociationType",
+    "target": "EmployeeSupervisor",
+    "relation": "hasElement"
+  },
+  {
+    "source": "EmploymentPositionOrganizationAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "EmploymentPositionOrganizationAssociationType",
+    "target": "Organization",
+    "relation": "hasElement"
+  },
+  {
+    "source": "EquipmentType",
+    "target": "ItemType",
+    "relation": "extends"
+  },
+  {
+    "source": "EquipmentType",
+    "target": "EquipmentIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "FacilityAssociationType",
+    "target": "Facility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityDocumentAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "FacilityDocumentAssociationType",
+    "target": "Facility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityDocumentAssociationType",
+    "target": "Document",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityImageAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "FacilityImageAssociationType",
+    "target": "Facility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityPersonAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "FacilityPersonAssociationType",
+    "target": "Facility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityPersonAssociationType",
+    "target": "Person",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilitySiteAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "FacilitySiteAssociationType",
+    "target": "Facility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilitySubFacilityAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "FacilitySubFacilityAssociationType",
+    "target": "ParentFacility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilitySubFacilityAssociationType",
+    "target": "SubFacility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityCategory",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityContainsItem",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityCapacityDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityCapacityQuantity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityMaxOccupancyQuantity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityMemberCategoryText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityOperatingSchedule",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityOperationalStatus",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilitySecurityLevelAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilitySiteDiagram",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilitySystemIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilitySystemIPAddressID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityUsage",
+    "relation": "hasElement"
+  },
+  {
+    "source": "FacilityType",
+    "target": "FacilityAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationPerson",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationJurisdiction",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationCardDesignRevisionDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationCategoryDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationElectronicIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationEffectiveDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationExpirationDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationIssueDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationIssuerAdministrativeID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationIssuerComment",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationIssuerCountry",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationIssuerLocalityText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationIssuerLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationIssuerOrganization",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationIssuerState",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationIssuerSymbolImage",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationIssuerText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationLimitedTermIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationREALIDComplianceAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationSealImage",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationSignatureAuthorityName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationStatus",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationStatusAdvisoryText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationStolenLostIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationTitleText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationUNDistinguishingSignID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IdentificationType",
+    "target": "IdentificationAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IncidentType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "IncidentType",
+    "target": "IncidentEvent",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IncidentType",
+    "target": "IncidentJurisdictionalOrganization",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IncidentType",
+    "target": "IncidentReportedNarrative",
+    "relation": "hasElement"
+  },
+  {
+    "source": "IntangibleItemType",
+    "target": "ItemType",
+    "relation": "extends"
+  },
+  {
+    "source": "ItemContainerAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ItemContainerAssociationType",
+    "target": "Item",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemContainerAssociationType",
+    "target": "Container",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemEntityAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ItemEntityAssociationType",
+    "target": "Item",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemInsuranceAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ItemInsuranceAssociationType",
+    "target": "Item",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemInsuranceAssociationType",
+    "target": "RelatedActivity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemLocationAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "ItemLocationAssociationType",
+    "target": "Location",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemLocationAssociationType",
+    "target": "Item",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemTransactionType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "ItemTransactionType",
+    "target": "Item",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemActionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemAgeMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemBarCodeIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemBinary",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemBrandName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemColorDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemColorPrimaryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemColorSecondaryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemConditionAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemCurrentResaleValue",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemDealerIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemDisposition",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemFirstSoldYearDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemHeightMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemImage",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemLeaseIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemLengthMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemMakeAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemModelName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemModelYearDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemOtherIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemOwner",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemOwnerAppliedID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemOwnerPurchasedValue",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemOwnershipCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemPossessionDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemPossessor",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemQuantity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemReceiptIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemRentalIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemRFIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemSalesTaxPercent",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemSerialIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemSizeDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemStateIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemStatus",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemStyleAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemUsageText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemValue",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemVisibleID",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemWeightMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemWidthMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ItemType",
+    "target": "ItemAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LengthMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "LicenseType",
+    "target": "IdentificationType",
+    "relation": "extends"
+  },
+  {
+    "source": "LicenseType",
+    "target": "LicenseRatingEffectiveDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LicenseType",
+    "target": "LicenseRatingExpirationDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationContactInformationAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "LocationContactInformationAssociationType",
+    "target": "Location",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationContactInformationAssociationType",
+    "target": "ContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationAddressAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationArea",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationDirectionsText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationGeospatialCoordinateAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationHeightAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationLandmarkAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationLocale",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationMapLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationPart",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationRangeDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationRelativeLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationSurroundingAreaDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "LocationType",
+    "target": "LocationAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ManifestType",
+    "target": "DocumentType",
+    "relation": "extends"
+  },
+  {
+    "source": "ManifestType",
+    "target": "ManifestTransmittedDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "MeasureType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "MeasureType",
+    "target": "MeasureValueAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "MeasureType",
+    "target": "MeasureCommentText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "MeasureType",
+    "target": "MeasureDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "MeasureType",
+    "target": "MeasureDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "MeasureType",
+    "target": "MeasureErrorAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "MeasureType",
+    "target": "Measurer",
+    "relation": "hasElement"
+  },
+  {
+    "source": "MeasureType",
+    "target": "MeasureUnitAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "MeasureType",
+    "target": "MeasureMethodAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "MeasureType",
+    "target": "MeasureEstimatedIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "MeasureType",
+    "target": "MeasureAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "OrganizationAssociationType",
+    "target": "Organization",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationFacilityAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "OrganizationFacilityAssociationType",
+    "target": "Facility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationFacilityAssociationType",
+    "target": "Organization",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationLocationAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "OrganizationLocationAssociationType",
+    "target": "Location",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationLocationAssociationType",
+    "target": "Organization",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationAbbreviationText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationActiveIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationActivityAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationBranchName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationDayContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationDoingBusinessAsName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationEmergencyContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationEstablishedDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationEveningContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationForeignAffiliate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationIncorporatedIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationIncorporationDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationIncorporationLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationJurisdiction",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationLEIIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationLicenseIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationLocalIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationNameEffectiveDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationNameTerminationDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationNightContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationOtherIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationParentAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationPrimaryContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationPrincipalOfficial",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationServiceHoursAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationSizeAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationStatus",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationSubUnit",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationSubUnitName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationTaxIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationTerminationDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationUnitName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationValidDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationType",
+    "target": "OrganizationAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationUnitAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "OrganizationUnitAssociationType",
+    "target": "Organization",
+    "relation": "hasElement"
+  },
+  {
+    "source": "OrganizationUnitAssociationType",
+    "target": "OrganizationUnit",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PassportType",
+    "target": "IdentificationType",
+    "relation": "extends"
+  },
+  {
+    "source": "PassportType",
+    "target": "PassportNumberIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PassportType",
+    "target": "PassportBookIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonAssociationType",
+    "target": "Person",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonConveyanceAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonConveyanceAssociationType",
+    "target": "Person",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonConveyanceAssociationType",
+    "target": "Conveyance",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonDisunionType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonDocumentAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonDocumentAssociationType",
+    "target": "Person",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonDocumentAssociationType",
+    "target": "Document",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonEncounterType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonIdentityAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonIdentityAssociationType",
+    "target": "Person",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonLocationAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonLocationAssociationType",
+    "target": "Person",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonLocationAssociationType",
+    "target": "Location",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonOrganizationAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonOrganizationAssociationType",
+    "target": "Person",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonOrganizationAssociationType",
+    "target": "Organization",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "ObjectType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonAccentText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonAgeDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonAgeMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonBirthDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonBirthLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonBloodTypeAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonBodyXRaysAvailableAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonBuildAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonCapability",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonCircumcisionIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonCitizenship",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonComplexionAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonDeathDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonDependentQuantity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonDigitalImage",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonDigitizedSignatureImage",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonDisguiseDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonOrganDonorAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonEducation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonEmployedIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonEthnicityAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonEyeColorAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonEyewearAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonFacialHairAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonGeneralAppearanceDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonHairAppearanceText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonHairCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonHairColorAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonHairLengthAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonHairStyleAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonHandednessAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonHeightDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonHeightMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonHumanResourceIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonInjury",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonJewelryDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonJobTitleText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonLanguageEnglishIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonLearningDisabilityAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonLicenseIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonLivingIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonMedicalCondition",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonMedicalDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonMedicalFileIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonMedicationRequiredText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonMentalStateAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonMilitarySummary",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonMoodDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonName",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonNationalIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonOrganDonorIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonOtherIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonPassportIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonPhysicalDisabilityText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonPhysicalFeature",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonPrimaryLanguage",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonPronounsAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonRaceAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonReligionAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonResidenceAddress",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonResidentAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonSecondaryLanguage",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonSecurityClearanceAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonSexAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonSexualOrientationAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonSkinToneAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonSpeechDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonSSNIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonStateIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonTaxIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonUnemploymentStatus",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonUnionStatusAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonUSCitizenIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonVisionPrescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonWeightDescriptionText",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonWeightMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonXRayImage",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonNationality",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "EmployeeContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonEmergencyContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonHomeContactInformation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonType",
+    "target": "PersonAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonUnionSeparationType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonWorkerAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "PersonWorkerAssociationType",
+    "target": "Person",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonWorkerAssociationType",
+    "target": "PersonWorker",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PersonWorkerAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ProgramType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "ProgramType",
+    "target": "ProgramPerson",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ProgramType",
+    "target": "ProgramAction",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ProgramType",
+    "target": "ProgramFacility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ProgressType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "PublicationType",
+    "target": "DocumentType",
+    "relation": "extends"
+  },
+  {
+    "source": "PublicationType",
+    "target": "PublicationDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "PublicationType",
+    "target": "PublicationLibraryClassificationIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "RealEstateType",
+    "target": "ItemType",
+    "relation": "extends"
+  },
+  {
+    "source": "RealEstateType",
+    "target": "RealEstateAttachedFacility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ReferralType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "ReferralType",
+    "target": "ReferralActivity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ReferralType",
+    "target": "ReferralItem",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ReferralType",
+    "target": "ReferralPerson",
+    "relation": "hasElement"
+  },
+  {
+    "source": "RelatedActivityAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "RelatedActivityAssociationType",
+    "target": "Activity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ReleaseType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "ReleaseType",
+    "target": "ReleasePerson",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ReleaseType",
+    "target": "ReleaseFromLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ReleaseType",
+    "target": "ReleaseItem",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ReleaseType",
+    "target": "ReleaseToLocation",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ReportType",
+    "target": "DocumentType",
+    "relation": "extends"
+  },
+  {
+    "source": "ReportType",
+    "target": "ReportAssignee",
+    "relation": "hasElement"
+  },
+  {
+    "source": "ReportType",
+    "target": "ReportDueDate",
+    "relation": "hasElement"
+  },
+  {
+    "source": "SecuritiesType",
+    "target": "ItemType",
+    "relation": "extends"
+  },
+  {
+    "source": "SoftwareComponentType",
+    "target": "ItemType",
+    "relation": "extends"
+  },
+  {
+    "source": "SoftwareType",
+    "target": "ItemType",
+    "relation": "extends"
+  },
+  {
+    "source": "SpeedMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "StudentType",
+    "target": "PersonType",
+    "relation": "extends"
+  },
+  {
+    "source": "StudentType",
+    "target": "StudentIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "SubstanceMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "SubstanceType",
+    "target": "ItemType",
+    "relation": "extends"
+  },
+  {
+    "source": "SupervisionType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "SupervisionType",
+    "target": "SupervisionFacility",
+    "relation": "hasElement"
+  },
+  {
+    "source": "SupervisionType",
+    "target": "SupervisionPerson",
+    "relation": "hasElement"
+  },
+  {
+    "source": "SystemAuditEventType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "SystemIdentificationType",
+    "target": "IdentificationType",
+    "relation": "extends"
+  },
+  {
+    "source": "TelecommunicationDeviceSIMCardAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "TemperatureMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "TimeMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "TransportationAssociationType",
+    "target": "AssociationType",
+    "relation": "extends"
+  },
+  {
+    "source": "TransportationAssociationType",
+    "target": "Conveyance",
+    "relation": "hasElement"
+  },
+  {
+    "source": "TransportationAssociationType",
+    "target": "ConveyedItem",
+    "relation": "hasElement"
+  },
+  {
+    "source": "TransportationAssociationType",
+    "target": "ConveyanceOperator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "TransportationAssociationType",
+    "target": "ConveyedPerson",
+    "relation": "hasElement"
+  },
+  {
+    "source": "TreatmentType",
+    "target": "ActivityType",
+    "relation": "extends"
+  },
+  {
+    "source": "TreatmentType",
+    "target": "Person",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "ConveyanceType",
+    "relation": "extends"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleCMVIndicator",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleColorInteriorAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleDoorQuantity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleMakeAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleModelAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleMSRPAmount",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleOdometerReadingMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehiclePassengerSafeQuantity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleSeatingQuantity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleTransmissionCategoryAbstract",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleAxleQuantity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleCurrentWeightMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleGrossLadenSumWeightMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleGrossLadenUnitWeightMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleMaximumLoadWeightMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleUnladenWeightMeasure",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VehicleType",
+    "target": "VehicleAugmentationPoint",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VesselType",
+    "target": "ConveyanceType",
+    "relation": "extends"
+  },
+  {
+    "source": "VesselType",
+    "target": "VesselHullIdentification",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VesselType",
+    "target": "VesselTrailer",
+    "relation": "hasElement"
+  },
+  {
+    "source": "VolumeMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "WeaponType",
+    "target": "ItemType",
+    "relation": "extends"
+  },
+  {
+    "source": "WeaponType",
+    "target": "WeaponUser",
+    "relation": "hasElement"
+  },
+  {
+    "source": "WeaponType",
+    "target": "WeaponInvolvedInActivity",
+    "relation": "hasElement"
+  },
+  {
+    "source": "WeightMeasureType",
+    "target": "MeasureType",
+    "relation": "extends"
+  },
+  {
+    "source": "Activity",
+    "target": "ActivityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ActivityAssignedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ActivityDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ActivityDueDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ActivityEffectiveDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ActivityIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ActivityLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ActivityReportedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ActivityRequestedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ActivityScheduledDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ActivityVerifiedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Address",
+    "target": "AddressType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Address",
+    "target": "LocationAddressAbstract",
+    "relation": "substitutionGroup"
+  },
+  {
+    "source": "Agency",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "AircraftCallSignIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "AircraftTailIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "AnomalyContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "AnomalyDateTime",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "AnomalyLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ArrivalDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ArrivalEstimatedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ArrivalLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "AssessmentPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "AssessmentReport",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Association",
+    "target": "AssociationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "BinaryCaptureDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "BinaryLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CalendarDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CapabilityEndDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CapabilityIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CapabilityStartDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Case",
+    "target": "CaseType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CaseDispositionFinalDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CaseFiling",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CaveatReferenceDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CommentCreationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CommercialFacility",
+    "target": "FacilityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ConditionSetDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ConditionViolationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ContactMailingAddress",
+    "target": "AddressType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ContactMailingAddress",
+    "target": "ContactMeansAbstract",
+    "relation": "substitutionGroup"
+  },
+  {
+    "source": "ContactResponder",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Container",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Conveyance",
+    "target": "ConveyanceType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ConveyanceOperator",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ConveyedItem",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ConveyedPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CoordinatingAgency",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CourtCase",
+    "target": "CaseType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CrisisIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "CrisisLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DepartureDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DepartureEstimatedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DepartureLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DeviceESNIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DeviceIMEIIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DeviceStoredContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DeviceStoredDocument",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DeviceUser",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DisciplinaryActionCommunityService",
+    "target": "ActivityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DisciplinaryActionCounseling",
+    "target": "ActivityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DisciplinaryActionPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DispositionDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DispositionInstrument",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Document",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentCoverageAddress",
+    "target": "AddressType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentCoverageAddress",
+    "target": "DocumentCoverageAbstract",
+    "relation": "substitutionGroup"
+  },
+  {
+    "source": "DocumentCoverageDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentCoverageDate",
+    "target": "DocumentCoverageAbstract",
+    "relation": "substitutionGroup"
+  },
+  {
+    "source": "DocumentCreationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentEffectiveDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentEntrySubmitter",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentExpirationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentFiledDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentInformationCutOffDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentIssuanceLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentIssueDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentLastModifiedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentPostDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentPublicationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentReceivedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "DocumentSoftware",
+    "target": "SoftwareType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EducationQualificationExpirationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EducationQualificationInstitution",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EducationQualificationIssuedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EffectiveDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ElectronicEquipment",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ElectronicInstrument",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Employee",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EmployeeContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EmployeeIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EmployeeRegistrationIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EmployeeSupervisor",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EmploymentLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EmploymentPositionIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EmploymentPositionLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EndDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EntityContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EntityItem",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EntityOrganization",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EntityPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "EquipmentIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ExpirationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Facility",
+    "target": "FacilityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "FacilityContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "FacilityContainsItem",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "FacilityIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "FacilityLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "FacilitySystemIdentification",
+    "target": "SystemIdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Identification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IdentificationCardDesignRevisionDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IdentificationEffectiveDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IdentificationExpirationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IdentificationIssueDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IdentificationIssuerLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IdentificationIssuerOrganization",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IdentificationPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IdentityCharacteristics",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IdentityCreationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IdentityTerminationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ImageLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IncidentEvent",
+    "target": "ActivityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IncidentJurisdictionalOrganization",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IncidentReportedNarrative",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "InjuryCauserPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "InjuryDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "InjurySustainer",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "InsuranceCancellationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "InsuranceCarrierIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "InsuranceCertifiedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "InsuranceCoveredItem",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "InsurancePolicyIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IntellectualPropertyCreationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IntellectualPropertyRegistrationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IntellectualPropertyRegistrationIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "IntellectualPropertyTerminationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Item",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemAgeMeasure",
+    "target": "TimeMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemBarCodeIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemDealerIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemDispositionLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemHeightMeasure",
+    "target": "LengthMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemHoldingOrganization",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemLengthMeasure",
+    "target": "LengthMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemMovingOrganization",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemOtherIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemReceiptIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemRFIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemSerialIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemStateIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemValueDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemWeightMeasure",
+    "target": "WeightMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ItemWidthMeasure",
+    "target": "LengthMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "JurisdictionIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "JurisdictionLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Kit",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LastUpdatedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LastVerifiedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LicenseEndorsementEndDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LicenseMedicalCertificationExpirationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LicenseMedicalCertificationIssueDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LicenseRatingEffectiveDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LicenseRatingExpirationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LicenseRestrictionEndDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LicenseSkillsPerformanceEvaluationEffectiveDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LicenseSkillsPerformanceEvaluationExpirationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LicenseWaiverExemptEffectiveDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LicenseWaiverExemptExpirationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LocaleDistrictIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Location",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LocationContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "LocationIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Machinery",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MailingAddress",
+    "target": "AddressType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MailingAddress",
+    "target": "Address",
+    "relation": "substitutionGroup"
+  },
+  {
+    "source": "ManifestTransmittedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MapDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Measure",
+    "target": "MeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MeasureDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MedicalConditionDoctor",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MessageAttachmentDocument",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MessageReceivedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MessageSentDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MilitaryDischargeDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MilitaryEnlistmentDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MilitaryInductionDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MilitaryPersonIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MilitaryReleaseDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MissionCommencementNoEarlierThanDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MissionCommencementNoLaterThanDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "MissionStagingLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ObligationDueDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ObligationPaidDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Organization",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationDayContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationEmergencyContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationEstablishedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationEveningContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationForeignAffiliate",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationIncorporationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationIncorporationLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationLEIIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationLicenseIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationLocalIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationNameEffectiveDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationNameTerminationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationNightContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationOtherIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationParentAffiliate",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationParentAffiliate",
+    "target": "OrganizationParentAbstract",
+    "relation": "substitutionGroup"
+  },
+  {
+    "source": "OrganizationParentOrganization",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationParentOrganization",
+    "target": "OrganizationParentAbstract",
+    "relation": "substitutionGroup"
+  },
+  {
+    "source": "OrganizationPrimaryContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationPrincipalOfficial",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationSubUnit",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationTaxIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationTerminationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationUnit",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "OrganizationValidDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ParentFacility",
+    "target": "FacilityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PassportBookIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PassportNumberIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PatientMedicalFacility",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PermitIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PermitRenewalDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PermitStartDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Person",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonAgeMeasure",
+    "target": "TimeMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonBirthDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonBirthLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonDeathDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonEmergencyContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonHeightMeasure",
+    "target": "LengthMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonHomeContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonHumanResourceIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonLicenseIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonNationalIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonOtherIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonPassportIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonResidenceAddress",
+    "target": "AddressType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonSSNIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonStateIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonTaxIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonUnionLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonWeightMeasure",
+    "target": "WeightMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PersonWorker",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PhysicalAddress",
+    "target": "AddressType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PhysicalAddress",
+    "target": "Address",
+    "relation": "substitutionGroup"
+  },
+  {
+    "source": "PlanApprovalDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PlanAssignedPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PlanCreatedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PlanEstimatedFulfillmentDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PlanIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PlanReleaseDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PlanRevisionReleaseDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PlanUpdatedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PolygonNodeLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PreviousActivity",
+    "target": "ActivityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PrimaryDocument",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ProgramAction",
+    "target": "ActivityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ProgramFacility",
+    "target": "FacilityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ProgramPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PublicationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PublicationLibraryClassificationIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PublicServiceInputResourceDocument",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PublicServiceLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PublicServiceOutputResourceDocument",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "PublicServiceRelatedLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "RealEstateAttachedFacility",
+    "target": "FacilityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "RecommendationDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReferralActivity",
+    "target": "ActivityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReferralItem",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReferralPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "RelatedActivity",
+    "target": "ActivityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "RelativeLocationReferencePoint",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReleaseDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReleaseFromLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReleaseItem",
+    "target": "ItemType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReleasePerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReleaseToLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReportAssignee",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReportDueDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReportedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReportingOrganization",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ReportingPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "RequestContactInformation",
+    "target": "ContactInformationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "RequestDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "RequestDecisionDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "RequestIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ResidentialFacility",
+    "target": "FacilityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "RiskReductionFacility",
+    "target": "FacilityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ScheduleDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "SchedulePerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "SecondaryDocument",
+    "target": "DocumentType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "ServiceDeliveryNGO",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "SiteLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "SourceContactPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "StartDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "StatusDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "StatusIssuerIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "StudentIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "SubFacility",
+    "target": "FacilityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "SupervisionFacility",
+    "target": "FacilityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "SupervisionPerson",
+    "target": "PersonType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "TaskAssignedDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "TaskDueDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "TaskEndDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "TaskLocation",
+    "target": "LocationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "TaskStartDate",
+    "target": "DateType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "TowingCompany",
+    "target": "OrganizationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "Vehicle",
+    "target": "VehicleType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "VehicleCurrentWeightMeasure",
+    "target": "WeightMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "VehicleGrossLadenSumWeightMeasure",
+    "target": "WeightMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "VehicleGrossLadenUnitWeightMeasure",
+    "target": "WeightMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "VehicleIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "VehicleMaximumLoadWeightMeasure",
+    "target": "WeightMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "VehicleOdometerReadingMeasure",
+    "target": "LengthMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "VehicleUnladenWeightMeasure",
+    "target": "WeightMeasureType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "VesselHullIdentification",
+    "target": "IdentificationType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "VesselTrailer",
+    "target": "VehicleType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "WeaponInvolvedInActivity",
+    "target": "ActivityType",
+    "relation": "typedBy"
+  },
+  {
+    "source": "WeaponUser",
+    "target": "PersonType",
+    "relation": "typedBy"
+  }
+]
